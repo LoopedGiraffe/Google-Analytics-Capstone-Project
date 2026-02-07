@@ -1,0 +1,20 @@
+
+MANUFACTURING DEFECTS ANALYTICS - EXECUTIVE SUMMARY
+Generated: 2026-02-07 20:29:30
+
+DATASET OVERVIEW
+- Total Records: 1,000
+- Date Range: 2025-10-01 00:00:00 to 2025-11-11 15:00:00
+- Total Cost Impact: 620,911.38 PLN
+
+KEY FINDINGS
+1. Night Shift Crisis: 28.8% of defects
+2. Pareto Top 3: 71.7% of costs
+3. Worst Machine: M002 (655 PLN avg)
+4. Resolution Rate: 70.4%
+
+RECOMMENDATIONS
+1. Implement enhanced night shift monitoring
+2. Focus quality efforts on top 3 defect types
+3. Schedule M002 for maintenance
+4. Target 85% resolution rate by Q2 2026

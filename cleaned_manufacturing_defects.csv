@@ -1,0 +1,1001 @@
+defect_id,timestamp,shift,operator_id,machine_id,defect_type,severity,production_line,defect_cost_pln,is_resolved,date,hour,day_of_week
+1,2025-10-01 00:00:00,Day,47,M002,Contamination,High,Line C,452.87,True,2025-10-01,0,Wednesday
+2,2025-10-01 01:00:00,Night,12,M004,Surface Scratch,Low,Line A,132.1,False,2025-10-01,1,Wednesday
+3,2025-10-01 02:00:00,Night,16,M002,Contamination,Medium,Line A,300.74,False,2025-10-01,2,Wednesday
+4,2025-10-01 03:00:00,Evening,24,M004,Misalignment,Low,Line A,111.25,False,2025-10-01,3,Wednesday
+5,2025-10-01 04:00:00,Day,19,M001,Torque Error,Medium,Line A,164.22,False,2025-10-01,4,Wednesday
+6,2025-10-01 05:00:00,Day,8,M001,Contamination,Medium,Line B,54.44,True,2025-10-01,5,Wednesday
+7,2025-10-01 06:00:00,Day,31,M001,Surface Scratch,Low,Line B,525.28,True,2025-10-01,6,Wednesday
+8,2025-10-01 07:00:00,Night,21,M003,Surface Scratch,Low,Line C,2189.88,True,2025-10-01,7,Wednesday
+9,2025-10-01 08:00:00,Evening,17,M003,Torque Error,High,Line C,255.67,False,2025-10-01,8,Wednesday
+10,2025-10-01 09:00:00,Night,23,M001,Misalignment,Low,Line A,1059.06,False,2025-10-01,9,Wednesday
+11,2025-10-01 10:00:00,Day,37,M003,Torque Error,Medium,Line C,1243.51,True,2025-10-01,10,Wednesday
+12,2025-10-01 11:00:00,Night,16,M004,Misalignment,Low,Line C,121.62,False,2025-10-01,11,Wednesday
+13,2025-10-01 12:00:00,Night,6,M002,Misalignment,Medium,Line A,150.84,True,2025-10-01,12,Wednesday
+14,2025-10-01 13:00:00,Day,8,M002,Wiring Fault,Low,Line A,1086.59,True,2025-10-01,13,Wednesday
+15,2025-10-01 14:00:00,Day,25,M002,Misalignment,Medium,Line C,367.84,True,2025-10-01,14,Wednesday
+16,2025-10-01 15:00:00,Day,18,M001,Contamination,Low,Line B,110.96,True,2025-10-01,15,Wednesday
+17,2025-10-01 16:00:00,Day,25,M003,Surface Scratch,High,Line C,213.39,False,2025-10-01,16,Wednesday
+18,2025-10-01 17:00:00,Evening,12,M004,Contamination,Low,Line C,613.79,True,2025-10-01,17,Wednesday
+19,2025-10-01 18:00:00,Evening,15,M004,Misalignment,Medium,Line B,182.37,True,2025-10-01,18,Wednesday
+20,2025-10-01 19:00:00,Day,26,M001,Surface Scratch,Medium,Line B,25.17,True,2025-10-01,19,Wednesday
+21,2025-10-01 20:00:00,Evening,41,M004,Misalignment,Low,Line A,292.36,True,2025-10-01,20,Wednesday
+22,2025-10-01 21:00:00,Day,45,M004,Wiring Fault,Medium,Line A,317.03,True,2025-10-01,21,Wednesday
+23,2025-10-01 22:00:00,Day,26,M004,Surface Scratch,Low,Line C,407.17,True,2025-10-01,22,Wednesday
+24,2025-10-01 23:00:00,Day,47,M004,Surface Scratch,High,Line B,1420.67,True,2025-10-01,23,Wednesday
+25,2025-10-02 00:00:00,Evening,32,M003,Torque Error,High,Line A,425.61,True,2025-10-02,0,Thursday
+26,2025-10-02 01:00:00,Night,10,M004,Contamination,High,Line C,514.37,True,2025-10-02,1,Thursday
+27,2025-10-02 02:00:00,Day,16,M002,Misalignment,Low,Line B,1159.26,False,2025-10-02,2,Thursday
+28,2025-10-02 03:00:00,Evening,7,M001,Wiring Fault,Medium,Line C,407.62,True,2025-10-02,3,Thursday
+29,2025-10-02 04:00:00,Evening,17,M003,Wiring Fault,Medium,Line A,3369.676856156396,True,2025-10-02,4,Thursday
+30,2025-10-02 05:00:00,Day,23,M004,Contamination,High,Line A,114.01,True,2025-10-02,5,Thursday
+31,2025-10-02 06:00:00,Evening,26,M003,Misalignment,Medium,Line B,158.52,True,2025-10-02,6,Thursday
+32,2025-10-02 07:00:00,Day,21,M004,Misalignment,High,Line C,745.43,True,2025-10-02,7,Thursday
+33,2025-10-02 08:00:00,Day,22,M002,Misalignment,Medium,Line B,1414.19,False,2025-10-02,8,Thursday
+34,2025-10-02 09:00:00,Night,7,M001,Torque Error,Medium,Line A,330.04,False,2025-10-02,9,Thursday
+35,2025-10-02 10:00:00,Night,14,M004,Contamination,Low,Line A,146.85,False,2025-10-02,10,Thursday
+36,2025-10-02 11:00:00,Night,15,M004,Surface Scratch,Medium,Line C,2347.23,True,2025-10-02,11,Thursday
+37,2025-10-02 12:00:00,Day,7,M004,Torque Error,Medium,Line C,182.66,True,2025-10-02,12,Thursday
+38,2025-10-02 13:00:00,Day,9,M004,Misalignment,Medium,Line C,566.26,False,2025-10-02,13,Thursday
+39,2025-10-02 14:00:00,Evening,48,M001,Torque Error,Medium,Line B,1501.4,True,2025-10-02,14,Thursday
+40,2025-10-02 15:00:00,Evening,8,M001,Contamination,Medium,Line C,259.41,True,2025-10-02,15,Thursday
+41,2025-10-02 16:00:00,Day,50,M002,Torque Error,Low,Line C,216.56,False,2025-10-02,16,Thursday
+42,2025-10-02 17:00:00,Evening,23,M001,Torque Error,Medium,Line A,231.9,True,2025-10-02,17,Thursday
+43,2025-10-02 18:00:00,Day,29,M004,Wiring Fault,Medium,Line A,993.82,True,2025-10-02,18,Thursday
+44,2025-10-02 19:00:00,Night,18,M002,Wiring Fault,Medium,Line C,1164.62,True,2025-10-02,19,Thursday
+45,2025-10-02 20:00:00,Day,31,M002,Misalignment,Low,Line C,417.27,True,2025-10-02,20,Thursday
+46,2025-10-02 21:00:00,Evening,30,M002,Misalignment,Low,Line A,2652.03,True,2025-10-02,21,Thursday
+47,2025-10-02 22:00:00,Day,39,M004,Torque Error,Low,Line C,416.53,True,2025-10-02,22,Thursday
+48,2025-10-02 23:00:00,Evening,35,M003,Misalignment,Medium,Line B,1468.99,True,2025-10-02,23,Thursday
+49,2025-10-03 00:00:00,Evening,18,M004,Contamination,Low,Line B,261.91,True,2025-10-03,0,Friday
+50,2025-10-03 01:00:00,Day,42,M001,Misalignment,Medium,Line B,3369.676856156396,True,2025-10-03,1,Friday
+51,2025-10-03 02:00:00,Night,39,M001,Torque Error,High,Line C,1939.4,False,2025-10-03,2,Friday
+52,2025-10-03 03:00:00,Night,17,M004,Misalignment,Low,Line A,354.97,True,2025-10-03,3,Friday
+53,2025-10-03 04:00:00,Night,14,M004,Torque Error,Medium,Line C,1693.48,True,2025-10-03,4,Friday
+54,2025-10-03 05:00:00,Night,31,M002,Surface Scratch,Medium,Line C,1609.99,True,2025-10-03,5,Friday
+55,2025-10-03 06:00:00,Evening,24,M004,Misalignment,High,Line A,1906.53,False,2025-10-03,6,Friday
+56,2025-10-03 07:00:00,Night,35,M002,Misalignment,Medium,Line A,33.72,True,2025-10-03,7,Friday
+57,2025-10-03 08:00:00,Day,44,M001,Contamination,Medium,Line A,828.28,True,2025-10-03,8,Friday
+58,2025-10-03 09:00:00,Day,45,M002,Wiring Fault,High,Line B,693.88,True,2025-10-03,9,Friday
+59,2025-10-03 10:00:00,Day,34,M004,Misalignment,Medium,Line C,646.18,False,2025-10-03,10,Friday
+60,2025-10-03 11:00:00,Day,3,M001,Contamination,High,Line A,501.87,True,2025-10-03,11,Friday
+61,2025-10-03 12:00:00,Day,37,M003,Misalignment,Low,Line C,516.88,True,2025-10-03,12,Friday
+62,2025-10-03 13:00:00,Day,43,M002,Wiring Fault,High,Line B,1455.55,True,2025-10-03,13,Friday
+63,2025-10-03 14:00:00,Night,40,M001,Contamination,Medium,Line B,691.92,True,2025-10-03,14,Friday
+64,2025-10-03 15:00:00,Day,26,M002,Wiring Fault,Medium,Line A,501.15,False,2025-10-03,15,Friday
+65,2025-10-03 16:00:00,Day,23,M001,Surface Scratch,Low,Line A,1260.65,False,2025-10-03,16,Friday
+66,2025-10-03 17:00:00,Evening,44,M001,Misalignment,Medium,Line C,612.79,True,2025-10-03,17,Friday
+67,2025-10-03 18:00:00,Day,39,M002,Wiring Fault,Low,Line A,674.23,False,2025-10-03,18,Friday
+68,2025-10-03 19:00:00,Night,15,M003,Misalignment,High,Line C,2609.82,True,2025-10-03,19,Friday
+69,2025-10-03 20:00:00,Day,49,M001,Wiring Fault,High,Line A,261.26,True,2025-10-03,20,Friday
+70,2025-10-03 21:00:00,Night,4,M001,Torque Error,Low,Line C,88.61,True,2025-10-03,21,Friday
+71,2025-10-03 22:00:00,Night,29,M001,Wiring Fault,High,Line C,433.7,True,2025-10-03,22,Friday
+72,2025-10-03 23:00:00,Day,22,M003,Misalignment,Medium,Line C,499.97,False,2025-10-03,23,Friday
+73,2025-10-04 00:00:00,Day,25,M003,Misalignment,Medium,Line C,830.09,True,2025-10-04,0,Saturday
+74,2025-10-04 01:00:00,Night,13,M004,Contamination,Low,Line B,449.13,True,2025-10-04,1,Saturday
+75,2025-10-04 02:00:00,Night,18,M002,Contamination,Low,Line C,858.44,True,2025-10-04,2,Saturday
+76,2025-10-04 03:00:00,Night,33,M003,Misalignment,Low,Line A,3369.676856156396,True,2025-10-04,3,Saturday
+77,2025-10-04 04:00:00,Night,16,M002,Contamination,Low,Line B,899.21,True,2025-10-04,4,Saturday
+78,2025-10-04 05:00:00,Day,45,M004,Misalignment,High,Line B,1072.04,True,2025-10-04,5,Saturday
+79,2025-10-04 06:00:00,Day,42,M002,Contamination,Low,Line C,354.42,False,2025-10-04,6,Saturday
+80,2025-10-04 07:00:00,Day,44,M003,Wiring Fault,High,Line B,100.96,True,2025-10-04,7,Saturday
+81,2025-10-04 08:00:00,Night,2,M002,Contamination,Low,Line C,40.52,True,2025-10-04,8,Saturday
+82,2025-10-04 09:00:00,Evening,35,M003,Misalignment,Medium,Line A,240.16,False,2025-10-04,9,Saturday
+83,2025-10-04 10:00:00,Day,42,M002,Contamination,Medium,Line C,30.56,False,2025-10-04,10,Saturday
+84,2025-10-04 11:00:00,Day,34,M003,Misalignment,High,Line B,674.21,True,2025-10-04,11,Saturday
+85,2025-10-04 12:00:00,Day,30,M003,Surface Scratch,Low,Line A,275.11,False,2025-10-04,12,Saturday
+86,2025-10-04 13:00:00,Day,13,M002,Misalignment,Medium,Line C,108.49,True,2025-10-04,13,Saturday
+87,2025-10-04 14:00:00,Night,13,M004,Torque Error,Medium,Line A,459.84,True,2025-10-04,14,Saturday
+88,2025-10-04 15:00:00,Evening,18,M001,Surface Scratch,Low,Line A,192.74,True,2025-10-04,15,Saturday
+89,2025-10-04 16:00:00,Night,32,M004,Wiring Fault,Low,Line B,633.19,False,2025-10-04,16,Saturday
+90,2025-10-04 17:00:00,Evening,32,M002,Torque Error,Medium,Line A,818.63,True,2025-10-04,17,Saturday
+91,2025-10-04 18:00:00,Day,35,M004,Wiring Fault,Medium,Line B,199.97,True,2025-10-04,18,Saturday
+92,2025-10-04 19:00:00,Night,39,M003,Surface Scratch,Medium,Line A,318.21,True,2025-10-04,19,Saturday
+93,2025-10-04 20:00:00,Night,46,M001,Torque Error,Low,Line C,500.14,False,2025-10-04,20,Saturday
+94,2025-10-04 21:00:00,Evening,29,M002,Torque Error,Medium,Line A,98.79,True,2025-10-04,21,Saturday
+95,2025-10-04 22:00:00,Night,49,M002,Torque Error,Medium,Line C,500.1,True,2025-10-04,22,Saturday
+96,2025-10-04 23:00:00,Evening,29,M002,Contamination,Medium,Line C,96.45,True,2025-10-04,23,Saturday
+97,2025-10-05 00:00:00,Evening,44,M001,Torque Error,High,Line A,710.32,False,2025-10-05,0,Sunday
+98,2025-10-05 01:00:00,Evening,16,M003,Contamination,Medium,Line C,261.08,False,2025-10-05,1,Sunday
+99,2025-10-05 02:00:00,Day,44,M002,Misalignment,Medium,Line A,95.91,True,2025-10-05,2,Sunday
+100,2025-10-05 03:00:00,Day,47,M004,Misalignment,Low,Line A,225.89,True,2025-10-05,3,Sunday
+101,2025-10-05 04:00:00,Day,10,M002,Misalignment,Medium,Line C,235.64,False,2025-10-05,4,Sunday
+102,2025-10-05 05:00:00,Evening,30,M002,Misalignment,Low,Line C,1174.41,True,2025-10-05,5,Sunday
+103,2025-10-05 06:00:00,Day,25,M002,Misalignment,Medium,Line B,479.77,False,2025-10-05,6,Sunday
+104,2025-10-05 07:00:00,Evening,39,M002,Torque Error,Medium,Line C,155.05,False,2025-10-05,7,Sunday
+105,2025-10-05 08:00:00,Night,20,M003,Misalignment,High,Line B,2098.69,True,2025-10-05,8,Sunday
+106,2025-10-05 09:00:00,Day,5,M004,Wiring Fault,Low,Line C,754.83,True,2025-10-05,9,Sunday
+107,2025-10-05 10:00:00,Evening,1,M003,Misalignment,Medium,Line A,288.21,True,2025-10-05,10,Sunday
+108,2025-10-05 11:00:00,Night,30,M004,Misalignment,Medium,Line C,85.3,True,2025-10-05,11,Sunday
+109,2025-10-05 12:00:00,Day,49,M002,Torque Error,Low,Line A,263.86,True,2025-10-05,12,Sunday
+110,2025-10-05 13:00:00,Day,3,M001,Torque Error,Low,Line A,323.59,True,2025-10-05,13,Sunday
+111,2025-10-05 14:00:00,Day,45,M003,Misalignment,Low,Line A,583.49,True,2025-10-05,14,Sunday
+112,2025-10-05 15:00:00,Day,14,M001,Wiring Fault,Low,Line B,740.45,True,2025-10-05,15,Sunday
+113,2025-10-05 16:00:00,Night,30,M003,Wiring Fault,Low,Line C,903.78,True,2025-10-05,16,Sunday
+114,2025-10-05 17:00:00,Night,50,M002,Contamination,Low,Line A,80.52,True,2025-10-05,17,Sunday
+115,2025-10-05 18:00:00,Evening,4,M003,Contamination,Low,Line A,496.96,False,2025-10-05,18,Sunday
+116,2025-10-05 19:00:00,Night,18,M002,Surface Scratch,Medium,Line B,343.91,True,2025-10-05,19,Sunday
+117,2025-10-05 20:00:00,Night,37,M003,Torque Error,Medium,Line C,3369.676856156396,False,2025-10-05,20,Sunday
+118,2025-10-05 21:00:00,Day,25,M002,Contamination,High,Line C,430.39,True,2025-10-05,21,Sunday
+119,2025-10-05 22:00:00,Night,48,M002,Wiring Fault,Medium,Line B,216.45,True,2025-10-05,22,Sunday
+120,2025-10-05 23:00:00,Evening,1,M004,Misalignment,Medium,Line B,450.5,False,2025-10-05,23,Sunday
+121,2025-10-06 00:00:00,Night,46,M002,Contamination,High,Line C,399.99,True,2025-10-06,0,Monday
+122,2025-10-06 01:00:00,Night,15,M004,Misalignment,Medium,Line B,55.2,True,2025-10-06,1,Monday
+123,2025-10-06 02:00:00,Day,9,M002,Wiring Fault,Medium,Line C,606.86,True,2025-10-06,2,Monday
+124,2025-10-06 03:00:00,Day,15,M001,Torque Error,Medium,Line C,295.73,True,2025-10-06,3,Monday
+125,2025-10-06 04:00:00,Day,49,M002,Torque Error,Low,Line A,392.8,True,2025-10-06,4,Monday
+126,2025-10-06 05:00:00,Evening,24,M001,Misalignment,Low,Line A,168.42,True,2025-10-06,5,Monday
+127,2025-10-06 06:00:00,Night,4,M001,Misalignment,Medium,Line C,135.11,True,2025-10-06,6,Monday
+128,2025-10-06 07:00:00,Night,12,M002,Contamination,Medium,Line C,971.54,True,2025-10-06,7,Monday
+129,2025-10-06 08:00:00,Day,37,M001,Torque Error,Low,Line C,1222.26,True,2025-10-06,8,Monday
+130,2025-10-06 09:00:00,Evening,37,M004,Contamination,High,Line C,612.84,True,2025-10-06,9,Monday
+131,2025-10-06 10:00:00,Evening,43,M003,Misalignment,Medium,Line C,65.97,True,2025-10-06,10,Monday
+132,2025-10-06 11:00:00,Day,6,M002,Wiring Fault,Medium,Line C,653.97,True,2025-10-06,11,Monday
+133,2025-10-06 12:00:00,Day,39,M001,Misalignment,High,Line B,66.96,False,2025-10-06,12,Monday
+134,2025-10-06 13:00:00,Day,46,M002,Surface Scratch,Medium,Line C,208.27,True,2025-10-06,13,Monday
+135,2025-10-06 14:00:00,Night,24,M004,Misalignment,High,Line B,958.68,True,2025-10-06,14,Monday
+136,2025-10-06 15:00:00,Day,11,M002,Torque Error,Medium,Line B,778.68,True,2025-10-06,15,Monday
+137,2025-10-06 16:00:00,Evening,13,M002,Misalignment,Low,Line C,637.13,False,2025-10-06,16,Monday
+138,2025-10-06 17:00:00,Night,34,M001,Surface Scratch,Medium,Line C,1499.52,True,2025-10-06,17,Monday
+139,2025-10-06 18:00:00,Day,25,M004,Contamination,Medium,Line B,706.28,False,2025-10-06,18,Monday
+140,2025-10-06 19:00:00,Night,7,M003,Misalignment,Medium,Line B,53.57,True,2025-10-06,19,Monday
+141,2025-10-06 20:00:00,Night,4,M003,Contamination,High,Line C,278.79,True,2025-10-06,20,Monday
+142,2025-10-06 21:00:00,Day,8,M001,Misalignment,Medium,Line C,386.99,False,2025-10-06,21,Monday
+143,2025-10-06 22:00:00,Evening,20,M002,Misalignment,Medium,Line B,344.21,True,2025-10-06,22,Monday
+144,2025-10-06 23:00:00,Day,29,M001,Surface Scratch,High,Line B,217.64,True,2025-10-06,23,Monday
+145,2025-10-07 00:00:00,Day,45,M001,Contamination,Medium,Line B,144.0,False,2025-10-07,0,Tuesday
+146,2025-10-07 01:00:00,Day,46,M001,Wiring Fault,Medium,Line A,3369.676856156396,False,2025-10-07,1,Tuesday
+147,2025-10-07 02:00:00,Evening,10,M002,Torque Error,High,Line B,273.49,True,2025-10-07,2,Tuesday
+148,2025-10-07 03:00:00,Evening,43,M004,Torque Error,Low,Line A,3369.676856156396,True,2025-10-07,3,Tuesday
+149,2025-10-07 04:00:00,Day,34,M001,Misalignment,Medium,Line C,128.86,False,2025-10-07,4,Tuesday
+150,2025-10-07 05:00:00,Day,26,M002,Misalignment,High,Line C,778.26,True,2025-10-07,5,Tuesday
+151,2025-10-07 06:00:00,Night,41,M004,Wiring Fault,Medium,Line B,507.57,False,2025-10-07,6,Tuesday
+152,2025-10-07 07:00:00,Day,49,M001,Surface Scratch,Medium,Line C,160.46,True,2025-10-07,7,Tuesday
+153,2025-10-07 08:00:00,Day,3,M003,Misalignment,Medium,Line C,252.76,True,2025-10-07,8,Tuesday
+154,2025-10-07 09:00:00,Evening,6,M004,Misalignment,Medium,Line C,397.37,False,2025-10-07,9,Tuesday
+155,2025-10-07 10:00:00,Night,5,M001,Contamination,High,Line C,173.45,True,2025-10-07,10,Tuesday
+156,2025-10-07 11:00:00,Day,5,M004,Surface Scratch,Low,Line A,312.27,True,2025-10-07,11,Tuesday
+157,2025-10-07 12:00:00,Evening,47,M004,Misalignment,Low,Line A,37.91,True,2025-10-07,12,Tuesday
+158,2025-10-07 13:00:00,Night,23,M004,Contamination,Low,Line B,821.82,True,2025-10-07,13,Tuesday
+159,2025-10-07 14:00:00,Day,49,M004,Wiring Fault,Medium,Line B,1376.3,True,2025-10-07,14,Tuesday
+160,2025-10-07 15:00:00,Night,9,M004,Misalignment,Medium,Line B,635.47,False,2025-10-07,15,Tuesday
+161,2025-10-07 16:00:00,Day,35,M004,Misalignment,High,Line C,3369.676856156396,True,2025-10-07,16,Tuesday
+162,2025-10-07 17:00:00,Evening,20,M001,Torque Error,Medium,Line C,797.99,True,2025-10-07,17,Tuesday
+163,2025-10-07 18:00:00,Evening,49,M003,Surface Scratch,Medium,Line A,1264.98,False,2025-10-07,18,Tuesday
+164,2025-10-07 19:00:00,Evening,42,M002,Misalignment,Low,Line A,1391.81,True,2025-10-07,19,Tuesday
+165,2025-10-07 20:00:00,Day,35,M004,Contamination,Medium,Line B,25.76,True,2025-10-07,20,Tuesday
+166,2025-10-07 21:00:00,Night,50,M002,Contamination,Medium,Line A,616.26,True,2025-10-07,21,Tuesday
+167,2025-10-07 22:00:00,Day,18,M001,Contamination,Low,Line A,101.2,False,2025-10-07,22,Tuesday
+168,2025-10-07 23:00:00,Day,17,M004,Torque Error,Low,Line A,123.85,True,2025-10-07,23,Tuesday
+169,2025-10-08 00:00:00,Day,24,M003,Contamination,Low,Line A,147.38,True,2025-10-08,0,Wednesday
+170,2025-10-08 01:00:00,Evening,3,M002,Contamination,Low,Line A,295.09,True,2025-10-08,1,Wednesday
+171,2025-10-08 02:00:00,Evening,32,M004,Contamination,Medium,Line B,773.14,True,2025-10-08,2,Wednesday
+172,2025-10-08 03:00:00,Day,35,M001,Torque Error,Low,Line B,622.65,True,2025-10-08,3,Wednesday
+173,2025-10-08 04:00:00,Evening,38,M003,Contamination,Medium,Line A,398.38,True,2025-10-08,4,Wednesday
+174,2025-10-08 05:00:00,Day,13,M002,Wiring Fault,High,Line B,831.04,True,2025-10-08,5,Wednesday
+175,2025-10-08 06:00:00,Evening,47,M002,Misalignment,Medium,Line C,883.14,False,2025-10-08,6,Wednesday
+176,2025-10-08 07:00:00,Day,25,M004,Wiring Fault,High,Line A,628.05,True,2025-10-08,7,Wednesday
+177,2025-10-08 08:00:00,Evening,9,M003,Wiring Fault,Medium,Line C,71.92,True,2025-10-08,8,Wednesday
+178,2025-10-08 09:00:00,Day,4,M003,Misalignment,Medium,Line B,192.61,True,2025-10-08,9,Wednesday
+179,2025-10-08 10:00:00,Night,14,M003,Contamination,High,Line B,414.19,True,2025-10-08,10,Wednesday
+180,2025-10-08 11:00:00,Day,37,M003,Contamination,Low,Line C,840.04,True,2025-10-08,11,Wednesday
+181,2025-10-08 12:00:00,Day,34,M001,Misalignment,High,Line B,106.85,True,2025-10-08,12,Wednesday
+182,2025-10-08 13:00:00,Day,11,M003,Contamination,Low,Line A,398.88,True,2025-10-08,13,Wednesday
+183,2025-10-08 14:00:00,Night,41,M002,Misalignment,Medium,Line C,84.3,False,2025-10-08,14,Wednesday
+184,2025-10-08 15:00:00,Night,3,M002,Misalignment,Low,Line A,1125.43,True,2025-10-08,15,Wednesday
+185,2025-10-08 16:00:00,Day,28,M001,Wiring Fault,Medium,Line C,514.06,True,2025-10-08,16,Wednesday
+186,2025-10-08 17:00:00,Evening,29,M002,Misalignment,Medium,Line B,104.99,True,2025-10-08,17,Wednesday
+187,2025-10-08 18:00:00,Night,9,M002,Wiring Fault,Medium,Line C,104.3,True,2025-10-08,18,Wednesday
+188,2025-10-08 19:00:00,Evening,3,M003,Contamination,Low,Line C,594.33,True,2025-10-08,19,Wednesday
+189,2025-10-08 20:00:00,Evening,25,M002,Wiring Fault,Low,Line A,1595.27,True,2025-10-08,20,Wednesday
+190,2025-10-08 21:00:00,Day,34,M001,Torque Error,Low,Line B,134.72,True,2025-10-08,21,Wednesday
+191,2025-10-08 22:00:00,Day,12,M003,Misalignment,Low,Line A,885.9,False,2025-10-08,22,Wednesday
+192,2025-10-08 23:00:00,Night,42,M004,Torque Error,High,Line B,234.57,True,2025-10-08,23,Wednesday
+193,2025-10-09 00:00:00,Night,9,M003,Misalignment,Low,Line A,918.92,True,2025-10-09,0,Thursday
+194,2025-10-09 01:00:00,Evening,15,M001,Contamination,High,Line C,798.86,True,2025-10-09,1,Thursday
+195,2025-10-09 02:00:00,Day,40,M003,Surface Scratch,High,Line A,471.21,True,2025-10-09,2,Thursday
+196,2025-10-09 03:00:00,Day,25,M003,Misalignment,Low,Line B,64.43,True,2025-10-09,3,Thursday
+197,2025-10-09 04:00:00,Night,5,M001,Contamination,Medium,Line B,797.26,False,2025-10-09,4,Thursday
+198,2025-10-09 05:00:00,Night,11,M003,Torque Error,Low,Line C,666.49,True,2025-10-09,5,Thursday
+199,2025-10-09 06:00:00,Night,34,M001,Wiring Fault,Low,Line B,608.15,False,2025-10-09,6,Thursday
+200,2025-10-09 07:00:00,Night,24,M001,Torque Error,Low,Line A,490.62,False,2025-10-09,7,Thursday
+201,2025-10-09 08:00:00,Evening,15,M004,Misalignment,Medium,Line C,167.54,True,2025-10-09,8,Thursday
+202,2025-10-09 09:00:00,Day,38,M002,Torque Error,Medium,Line B,1191.49,True,2025-10-09,9,Thursday
+203,2025-10-09 10:00:00,Day,8,M002,Misalignment,Medium,Line B,990.43,True,2025-10-09,10,Thursday
+204,2025-10-09 11:00:00,Night,5,M003,Torque Error,Medium,Line A,137.63,True,2025-10-09,11,Thursday
+205,2025-10-09 12:00:00,Evening,48,M003,Surface Scratch,Low,Line A,1501.61,False,2025-10-09,12,Thursday
+206,2025-10-09 13:00:00,Day,26,M004,Torque Error,Medium,Line C,460.2,True,2025-10-09,13,Thursday
+207,2025-10-09 14:00:00,Day,18,M004,Wiring Fault,Medium,Line B,459.04,False,2025-10-09,14,Thursday
+208,2025-10-09 15:00:00,Evening,6,M004,Misalignment,Low,Line A,338.2,True,2025-10-09,15,Thursday
+209,2025-10-09 16:00:00,Day,37,M001,Torque Error,Low,Line C,373.16,False,2025-10-09,16,Thursday
+210,2025-10-09 17:00:00,Day,48,M004,Wiring Fault,Medium,Line B,1589.06,False,2025-10-09,17,Thursday
+211,2025-10-09 18:00:00,Evening,13,M004,Misalignment,Low,Line B,1133.51,True,2025-10-09,18,Thursday
+212,2025-10-09 19:00:00,Evening,28,M003,Wiring Fault,Medium,Line C,1109.7,True,2025-10-09,19,Thursday
+213,2025-10-09 20:00:00,Evening,5,M004,Misalignment,Low,Line C,485.2,True,2025-10-09,20,Thursday
+214,2025-10-09 21:00:00,Day,13,M001,Torque Error,Low,Line A,981.59,False,2025-10-09,21,Thursday
+215,2025-10-09 22:00:00,Night,17,M001,Wiring Fault,Low,Line B,175.16,False,2025-10-09,22,Thursday
+216,2025-10-09 23:00:00,Day,50,M003,Torque Error,Low,Line B,723.02,False,2025-10-09,23,Thursday
+217,2025-10-10 00:00:00,Day,40,M004,Misalignment,Medium,Line B,346.03,True,2025-10-10,0,Friday
+218,2025-10-10 01:00:00,Night,45,M004,Torque Error,Medium,Line C,51.43,True,2025-10-10,1,Friday
+219,2025-10-10 02:00:00,Evening,32,M001,Contamination,Medium,Line A,82.59,False,2025-10-10,2,Friday
+220,2025-10-10 03:00:00,Night,29,M004,Surface Scratch,High,Line B,207.89,True,2025-10-10,3,Friday
+221,2025-10-10 04:00:00,Evening,3,M004,Contamination,Medium,Line C,611.03,False,2025-10-10,4,Friday
+222,2025-10-10 05:00:00,Evening,40,M004,Contamination,Medium,Line B,208.08,True,2025-10-10,5,Friday
+223,2025-10-10 06:00:00,Day,34,M002,Torque Error,Low,Line A,223.38,True,2025-10-10,6,Friday
+224,2025-10-10 07:00:00,Day,40,M003,Contamination,Medium,Line B,865.46,True,2025-10-10,7,Friday
+225,2025-10-10 08:00:00,Day,27,M002,Torque Error,Medium,Line A,231.59,True,2025-10-10,8,Friday
+226,2025-10-10 09:00:00,Day,13,M003,Torque Error,Low,Line A,1526.61,True,2025-10-10,9,Friday
+227,2025-10-10 10:00:00,Night,45,M001,Wiring Fault,Medium,Line B,1293.52,True,2025-10-10,10,Friday
+228,2025-10-10 11:00:00,Day,33,M004,Torque Error,Low,Line B,412.35,True,2025-10-10,11,Friday
+229,2025-10-10 12:00:00,Night,6,M003,Contamination,Medium,Line A,857.02,True,2025-10-10,12,Friday
+230,2025-10-10 13:00:00,Evening,24,M002,Misalignment,High,Line C,747.88,True,2025-10-10,13,Friday
+231,2025-10-10 14:00:00,Night,19,M004,Misalignment,High,Line A,315.56,False,2025-10-10,14,Friday
+232,2025-10-10 15:00:00,Evening,16,M001,Misalignment,Medium,Line B,954.93,False,2025-10-10,15,Friday
+233,2025-10-10 16:00:00,Evening,40,M003,Misalignment,Medium,Line B,1106.44,False,2025-10-10,16,Friday
+234,2025-10-10 17:00:00,Evening,28,M003,Torque Error,Medium,Line C,155.64,False,2025-10-10,17,Friday
+235,2025-10-10 18:00:00,Day,33,M003,Torque Error,Medium,Line A,470.38,True,2025-10-10,18,Friday
+236,2025-10-10 19:00:00,Night,48,M004,Contamination,Low,Line A,465.22,True,2025-10-10,19,Friday
+237,2025-10-10 20:00:00,Day,41,M002,Wiring Fault,Medium,Line A,943.52,True,2025-10-10,20,Friday
+238,2025-10-10 21:00:00,Day,13,M002,Surface Scratch,Medium,Line B,258.82,False,2025-10-10,21,Friday
+239,2025-10-10 22:00:00,Evening,43,M003,Wiring Fault,High,Line A,221.9,True,2025-10-10,22,Friday
+240,2025-10-10 23:00:00,Day,45,M001,Torque Error,Medium,Line C,477.71,True,2025-10-10,23,Friday
+241,2025-10-11 00:00:00,Night,25,M001,Contamination,Medium,Line B,1314.69,False,2025-10-11,0,Saturday
+242,2025-10-11 01:00:00,Night,42,M002,Contamination,Medium,Line B,121.59,True,2025-10-11,1,Saturday
+243,2025-10-11 02:00:00,Night,36,M001,Misalignment,Medium,Line A,144.78,True,2025-10-11,2,Saturday
+244,2025-10-11 03:00:00,Day,27,M002,Contamination,Medium,Line C,239.73,True,2025-10-11,3,Saturday
+245,2025-10-11 04:00:00,Day,38,M003,Surface Scratch,Low,Line B,286.41,True,2025-10-11,4,Saturday
+246,2025-10-11 05:00:00,Night,7,M002,Wiring Fault,Medium,Line B,69.02,True,2025-10-11,5,Saturday
+247,2025-10-11 06:00:00,Evening,5,M002,Misalignment,High,Line A,1804.78,True,2025-10-11,6,Saturday
+248,2025-10-11 07:00:00,Night,43,M003,Contamination,Medium,Line A,354.14,True,2025-10-11,7,Saturday
+249,2025-10-11 08:00:00,Night,45,M001,Wiring Fault,Low,Line C,304.87,True,2025-10-11,8,Saturday
+250,2025-10-11 09:00:00,Night,31,M002,Misalignment,Medium,Line A,2043.95,False,2025-10-11,9,Saturday
+251,2025-10-11 10:00:00,Day,23,M002,Contamination,High,Line C,826.99,False,2025-10-11,10,Saturday
+252,2025-10-11 11:00:00,Day,42,M003,Wiring Fault,Low,Line B,236.18,True,2025-10-11,11,Saturday
+253,2025-10-11 12:00:00,Night,10,M001,Contamination,Medium,Line C,475.61,False,2025-10-11,12,Saturday
+254,2025-10-11 13:00:00,Day,32,M002,Misalignment,High,Line C,386.94,True,2025-10-11,13,Saturday
+255,2025-10-11 14:00:00,Day,43,M003,Contamination,Medium,Line C,1717.03,True,2025-10-11,14,Saturday
+256,2025-10-11 15:00:00,Evening,30,M002,Wiring Fault,High,Line B,341.24,True,2025-10-11,15,Saturday
+257,2025-10-11 16:00:00,Night,39,M004,Torque Error,Medium,Line A,95.39,True,2025-10-11,16,Saturday
+258,2025-10-11 17:00:00,Evening,31,M003,Misalignment,Medium,Line B,61.73,True,2025-10-11,17,Saturday
+259,2025-10-11 18:00:00,Evening,18,M001,Contamination,Medium,Line A,1763.69,True,2025-10-11,18,Saturday
+260,2025-10-11 19:00:00,Day,36,M001,Contamination,Low,Line C,183.35,True,2025-10-11,19,Saturday
+261,2025-10-11 20:00:00,Evening,2,M001,Torque Error,Low,Line C,788.56,False,2025-10-11,20,Saturday
+262,2025-10-11 21:00:00,Night,14,M001,Wiring Fault,Medium,Line C,433.44,True,2025-10-11,21,Saturday
+263,2025-10-11 22:00:00,Day,13,M002,Misalignment,Low,Line C,265.96,True,2025-10-11,22,Saturday
+264,2025-10-11 23:00:00,Evening,29,M002,Wiring Fault,Medium,Line C,311.11,True,2025-10-11,23,Saturday
+265,2025-10-12 00:00:00,Night,12,M001,Misalignment,High,Line A,1965.26,True,2025-10-12,0,Sunday
+266,2025-10-12 01:00:00,Night,39,M001,Contamination,High,Line A,94.82,True,2025-10-12,1,Sunday
+267,2025-10-12 02:00:00,Evening,2,M001,Misalignment,Medium,Line C,274.11,True,2025-10-12,2,Sunday
+268,2025-10-12 03:00:00,Night,32,M002,Contamination,High,Line B,998.81,True,2025-10-12,3,Sunday
+269,2025-10-12 04:00:00,Day,13,M001,Contamination,Medium,Line B,111.82,False,2025-10-12,4,Sunday
+270,2025-10-12 05:00:00,Day,46,M001,Contamination,Medium,Line C,1506.11,True,2025-10-12,5,Sunday
+271,2025-10-12 06:00:00,Night,27,M004,Misalignment,Low,Line A,984.61,False,2025-10-12,6,Sunday
+272,2025-10-12 07:00:00,Night,49,M004,Torque Error,Medium,Line B,529.43,True,2025-10-12,7,Sunday
+273,2025-10-12 08:00:00,Night,41,M001,Misalignment,Medium,Line B,243.92,True,2025-10-12,8,Sunday
+274,2025-10-12 09:00:00,Night,17,M003,Wiring Fault,Medium,Line B,98.34,True,2025-10-12,9,Sunday
+275,2025-10-12 10:00:00,Evening,40,M001,Surface Scratch,Medium,Line C,818.15,True,2025-10-12,10,Sunday
+276,2025-10-12 11:00:00,Evening,31,M004,Contamination,Low,Line B,3369.676856156396,True,2025-10-12,11,Sunday
+277,2025-10-12 12:00:00,Night,34,M003,Contamination,Medium,Line B,466.8,True,2025-10-12,12,Sunday
+278,2025-10-12 13:00:00,Evening,24,M003,Contamination,High,Line B,64.97,False,2025-10-12,13,Sunday
+279,2025-10-12 14:00:00,Night,45,M001,Misalignment,Medium,Line B,637.48,False,2025-10-12,14,Sunday
+280,2025-10-12 15:00:00,Night,35,M004,Contamination,High,Line A,953.62,True,2025-10-12,15,Sunday
+281,2025-10-12 16:00:00,Night,48,M004,Wiring Fault,High,Line C,161.12,True,2025-10-12,16,Sunday
+282,2025-10-12 17:00:00,Day,6,M003,Torque Error,High,Line C,211.56,True,2025-10-12,17,Sunday
+283,2025-10-12 18:00:00,Day,19,M001,Misalignment,High,Line A,191.07,True,2025-10-12,18,Sunday
+284,2025-10-12 19:00:00,Day,30,M002,Wiring Fault,High,Line A,237.14,False,2025-10-12,19,Sunday
+285,2025-10-12 20:00:00,Evening,7,M002,Contamination,Medium,Line C,339.62,False,2025-10-12,20,Sunday
+286,2025-10-12 21:00:00,Day,10,M004,Wiring Fault,Low,Line B,170.56,False,2025-10-12,21,Sunday
+287,2025-10-12 22:00:00,Evening,41,M002,Torque Error,Medium,Line B,117.23,True,2025-10-12,22,Sunday
+288,2025-10-12 23:00:00,Evening,32,M004,Torque Error,Medium,Line C,480.28,True,2025-10-12,23,Sunday
+289,2025-10-13 00:00:00,Day,34,M004,Misalignment,Low,Line B,336.08,True,2025-10-13,0,Monday
+290,2025-10-13 01:00:00,Evening,28,M004,Misalignment,Low,Line A,260.8,False,2025-10-13,1,Monday
+291,2025-10-13 02:00:00,Day,15,M002,Surface Scratch,High,Line B,438.43,True,2025-10-13,2,Monday
+292,2025-10-13 03:00:00,Day,30,M004,Misalignment,High,Line B,88.22,True,2025-10-13,3,Monday
+293,2025-10-13 04:00:00,Night,37,M003,Surface Scratch,High,Line B,524.9,True,2025-10-13,4,Monday
+294,2025-10-13 05:00:00,Day,29,M001,Contamination,Medium,Line C,266.22,False,2025-10-13,5,Monday
+295,2025-10-13 06:00:00,Day,22,M001,Misalignment,Low,Line A,512.6,True,2025-10-13,6,Monday
+296,2025-10-13 07:00:00,Evening,4,M004,Misalignment,Low,Line B,601.63,True,2025-10-13,7,Monday
+297,2025-10-13 08:00:00,Night,20,M001,Misalignment,Low,Line C,1250.32,False,2025-10-13,8,Monday
+298,2025-10-13 09:00:00,Day,32,M002,Surface Scratch,Low,Line B,447.18,False,2025-10-13,9,Monday
+299,2025-10-13 10:00:00,Evening,36,M002,Contamination,Low,Line A,1172.3,True,2025-10-13,10,Monday
+300,2025-10-13 11:00:00,Day,50,M001,Contamination,High,Line B,292.39,True,2025-10-13,11,Monday
+301,2025-10-13 12:00:00,Day,4,M002,Contamination,Medium,Line A,306.69,False,2025-10-13,12,Monday
+302,2025-10-13 13:00:00,Evening,27,M001,Misalignment,Low,Line B,368.36,False,2025-10-13,13,Monday
+303,2025-10-13 14:00:00,Evening,17,M001,Contamination,Low,Line A,874.91,True,2025-10-13,14,Monday
+304,2025-10-13 15:00:00,Evening,12,M001,Misalignment,Medium,Line B,758.21,True,2025-10-13,15,Monday
+305,2025-10-13 16:00:00,Night,22,M004,Wiring Fault,Low,Line A,461.77,True,2025-10-13,16,Monday
+306,2025-10-13 17:00:00,Night,17,M001,Contamination,High,Line B,118.19,False,2025-10-13,17,Monday
+307,2025-10-13 18:00:00,Evening,10,M004,Contamination,Medium,Line B,744.76,True,2025-10-13,18,Monday
+308,2025-10-13 19:00:00,Day,1,M001,Contamination,Medium,Line C,170.48,True,2025-10-13,19,Monday
+309,2025-10-13 20:00:00,Night,22,M001,Contamination,Low,Line C,161.44,True,2025-10-13,20,Monday
+310,2025-10-13 21:00:00,Day,26,M001,Surface Scratch,Low,Line A,129.22,False,2025-10-13,21,Monday
+311,2025-10-13 22:00:00,Evening,18,M002,Contamination,Medium,Line B,371.23,True,2025-10-13,22,Monday
+312,2025-10-13 23:00:00,Day,50,M004,Misalignment,Medium,Line A,1355.23,True,2025-10-13,23,Monday
+313,2025-10-14 00:00:00,Day,14,M004,Torque Error,Medium,Line C,153.64,True,2025-10-14,0,Tuesday
+314,2025-10-14 01:00:00,Night,47,M001,Misalignment,Low,Line A,2161.54,True,2025-10-14,1,Tuesday
+315,2025-10-14 02:00:00,Night,29,M001,Misalignment,Medium,Line A,1002.06,True,2025-10-14,2,Tuesday
+316,2025-10-14 03:00:00,Evening,12,M002,Surface Scratch,Medium,Line C,93.26,False,2025-10-14,3,Tuesday
+317,2025-10-14 04:00:00,Evening,36,M002,Wiring Fault,High,Line B,275.12,True,2025-10-14,4,Tuesday
+318,2025-10-14 05:00:00,Day,35,M002,Surface Scratch,Low,Line A,142.56,False,2025-10-14,5,Tuesday
+319,2025-10-14 06:00:00,Day,12,M004,Contamination,Low,Line C,784.43,True,2025-10-14,6,Tuesday
+320,2025-10-14 07:00:00,Day,7,M004,Contamination,Medium,Line B,150.18,True,2025-10-14,7,Tuesday
+321,2025-10-14 08:00:00,Evening,29,M004,Misalignment,Medium,Line C,79.75,True,2025-10-14,8,Tuesday
+322,2025-10-14 09:00:00,Night,11,M001,Misalignment,Medium,Line A,291.28,True,2025-10-14,9,Tuesday
+323,2025-10-14 10:00:00,Evening,33,M004,Wiring Fault,Medium,Line B,1299.06,True,2025-10-14,10,Tuesday
+324,2025-10-14 11:00:00,Day,6,M003,Contamination,Medium,Line B,332.78,False,2025-10-14,11,Tuesday
+325,2025-10-14 12:00:00,Night,47,M003,Wiring Fault,High,Line C,600.91,False,2025-10-14,12,Tuesday
+326,2025-10-14 13:00:00,Night,15,M002,Torque Error,Medium,Line C,624.67,True,2025-10-14,13,Tuesday
+327,2025-10-14 14:00:00,Evening,32,M004,Misalignment,High,Line C,88.92,False,2025-10-14,14,Tuesday
+328,2025-10-14 15:00:00,Evening,11,M003,Contamination,Medium,Line B,164.12,True,2025-10-14,15,Tuesday
+329,2025-10-14 16:00:00,Evening,23,M002,Torque Error,High,Line B,406.05,False,2025-10-14,16,Tuesday
+330,2025-10-14 17:00:00,Day,26,M004,Misalignment,High,Line A,231.05,True,2025-10-14,17,Tuesday
+331,2025-10-14 18:00:00,Day,34,M001,Wiring Fault,Low,Line B,2218.21,True,2025-10-14,18,Tuesday
+332,2025-10-14 19:00:00,Night,46,M003,Contamination,High,Line A,118.12,False,2025-10-14,19,Tuesday
+333,2025-10-14 20:00:00,Day,34,M001,Misalignment,Low,Line C,162.51,True,2025-10-14,20,Tuesday
+334,2025-10-14 21:00:00,Day,29,M004,Torque Error,High,Line C,539.45,True,2025-10-14,21,Tuesday
+335,2025-10-14 22:00:00,Day,4,M003,Surface Scratch,Medium,Line B,215.32,True,2025-10-14,22,Tuesday
+336,2025-10-14 23:00:00,Day,17,M004,Misalignment,Low,Line C,22.38,True,2025-10-14,23,Tuesday
+337,2025-10-15 00:00:00,Night,35,M001,Wiring Fault,Medium,Line C,2792.47,False,2025-10-15,0,Wednesday
+338,2025-10-15 01:00:00,Night,13,M003,Misalignment,High,Line B,137.79,True,2025-10-15,1,Wednesday
+339,2025-10-15 02:00:00,Evening,41,M001,Wiring Fault,Low,Line A,706.9,False,2025-10-15,2,Wednesday
+340,2025-10-15 03:00:00,Day,39,M004,Torque Error,Medium,Line B,115.19,True,2025-10-15,3,Wednesday
+341,2025-10-15 04:00:00,Evening,15,M004,Contamination,Medium,Line A,170.2,True,2025-10-15,4,Wednesday
+342,2025-10-15 05:00:00,Evening,29,M001,Contamination,High,Line B,79.6,False,2025-10-15,5,Wednesday
+343,2025-10-15 06:00:00,Day,29,M003,Wiring Fault,Medium,Line B,192.25,True,2025-10-15,6,Wednesday
+344,2025-10-15 07:00:00,Evening,11,M001,Contamination,Low,Line C,211.82,False,2025-10-15,7,Wednesday
+345,2025-10-15 08:00:00,Day,32,M004,Torque Error,Low,Line B,353.34,True,2025-10-15,8,Wednesday
+346,2025-10-15 09:00:00,Evening,2,M001,Misalignment,Medium,Line B,277.95,True,2025-10-15,9,Wednesday
+347,2025-10-15 10:00:00,Evening,47,M004,Wiring Fault,Medium,Line A,95.44,True,2025-10-15,10,Wednesday
+348,2025-10-15 11:00:00,Day,14,M001,Torque Error,High,Line C,238.91,True,2025-10-15,11,Wednesday
+349,2025-10-15 12:00:00,Day,20,M003,Surface Scratch,Low,Line A,1714.73,True,2025-10-15,12,Wednesday
+350,2025-10-15 13:00:00,Evening,22,M003,Misalignment,Medium,Line A,1522.93,False,2025-10-15,13,Wednesday
+351,2025-10-15 14:00:00,Evening,11,M001,Torque Error,Low,Line C,636.31,True,2025-10-15,14,Wednesday
+352,2025-10-15 15:00:00,Night,27,M001,Torque Error,Low,Line C,782.97,True,2025-10-15,15,Wednesday
+353,2025-10-15 16:00:00,Evening,3,M003,Contamination,Medium,Line C,3167.9,True,2025-10-15,16,Wednesday
+354,2025-10-15 17:00:00,Day,17,M004,Contamination,Medium,Line B,714.26,True,2025-10-15,17,Wednesday
+355,2025-10-15 18:00:00,Day,44,M003,Misalignment,Medium,Line C,768.31,True,2025-10-15,18,Wednesday
+356,2025-10-15 19:00:00,Evening,28,M004,Torque Error,High,Line C,84.39,False,2025-10-15,19,Wednesday
+357,2025-10-15 20:00:00,Day,29,M001,Contamination,Medium,Line C,132.6,False,2025-10-15,20,Wednesday
+358,2025-10-15 21:00:00,Evening,21,M001,Misalignment,High,Line A,390.45,False,2025-10-15,21,Wednesday
+359,2025-10-15 22:00:00,Night,47,M004,Torque Error,High,Line A,179.93,False,2025-10-15,22,Wednesday
+360,2025-10-15 23:00:00,Evening,16,M001,Contamination,Medium,Line B,148.72,True,2025-10-15,23,Wednesday
+361,2025-10-16 00:00:00,Day,37,M004,Misalignment,High,Line A,166.92,False,2025-10-16,0,Thursday
+362,2025-10-16 01:00:00,Evening,20,M002,Surface Scratch,Medium,Line B,97.17,True,2025-10-16,1,Thursday
+363,2025-10-16 02:00:00,Evening,6,M003,Surface Scratch,Low,Line A,182.84,True,2025-10-16,2,Thursday
+364,2025-10-16 03:00:00,Evening,19,M002,Contamination,Medium,Line C,566.48,True,2025-10-16,3,Thursday
+365,2025-10-16 04:00:00,Night,5,M004,Misalignment,Low,Line A,2431.65,True,2025-10-16,4,Thursday
+366,2025-10-16 05:00:00,Day,3,M003,Wiring Fault,Medium,Line B,895.14,False,2025-10-16,5,Thursday
+367,2025-10-16 06:00:00,Night,1,M004,Contamination,Medium,Line A,762.16,True,2025-10-16,6,Thursday
+368,2025-10-16 07:00:00,Night,38,M003,Contamination,Low,Line C,79.56,False,2025-10-16,7,Thursday
+369,2025-10-16 08:00:00,Day,15,M003,Contamination,Low,Line B,454.54,True,2025-10-16,8,Thursday
+370,2025-10-16 09:00:00,Day,34,M003,Contamination,High,Line C,377.3,True,2025-10-16,9,Thursday
+371,2025-10-16 10:00:00,Day,35,M003,Torque Error,Medium,Line C,539.55,False,2025-10-16,10,Thursday
+372,2025-10-16 11:00:00,Day,49,M004,Contamination,Low,Line B,281.27,True,2025-10-16,11,Thursday
+373,2025-10-16 12:00:00,Day,25,M003,Torque Error,Medium,Line C,2126.17,True,2025-10-16,12,Thursday
+374,2025-10-16 13:00:00,Evening,24,M003,Surface Scratch,Medium,Line C,425.29,True,2025-10-16,13,Thursday
+375,2025-10-16 14:00:00,Day,12,M002,Contamination,Medium,Line A,468.82,True,2025-10-16,14,Thursday
+376,2025-10-16 15:00:00,Day,18,M001,Torque Error,High,Line C,56.69,True,2025-10-16,15,Thursday
+377,2025-10-16 16:00:00,Night,15,M001,Wiring Fault,Medium,Line C,362.61,True,2025-10-16,16,Thursday
+378,2025-10-16 17:00:00,Day,44,M002,Contamination,Low,Line C,1273.16,False,2025-10-16,17,Thursday
+379,2025-10-16 18:00:00,Night,16,M002,Contamination,High,Line C,703.15,False,2025-10-16,18,Thursday
+380,2025-10-16 19:00:00,Day,27,M004,Torque Error,High,Line B,46.73,False,2025-10-16,19,Thursday
+381,2025-10-16 20:00:00,Day,8,M004,Torque Error,Low,Line A,257.32,False,2025-10-16,20,Thursday
+382,2025-10-16 21:00:00,Evening,46,M004,Wiring Fault,Low,Line C,2279.93,True,2025-10-16,21,Thursday
+383,2025-10-16 22:00:00,Evening,25,M002,Contamination,Low,Line C,347.01,True,2025-10-16,22,Thursday
+384,2025-10-16 23:00:00,Night,17,M002,Surface Scratch,Medium,Line B,556.92,True,2025-10-16,23,Thursday
+385,2025-10-17 00:00:00,Night,29,M003,Misalignment,Medium,Line C,2036.54,True,2025-10-17,0,Friday
+386,2025-10-17 01:00:00,Night,8,M004,Misalignment,Medium,Line B,345.64,False,2025-10-17,1,Friday
+387,2025-10-17 02:00:00,Day,15,M004,Torque Error,High,Line A,889.83,True,2025-10-17,2,Friday
+388,2025-10-17 03:00:00,Day,27,M004,Misalignment,Medium,Line A,608.74,True,2025-10-17,3,Friday
+389,2025-10-17 04:00:00,Night,46,M001,Misalignment,Low,Line C,753.82,True,2025-10-17,4,Friday
+390,2025-10-17 05:00:00,Night,50,M003,Contamination,Low,Line C,589.47,True,2025-10-17,5,Friday
+391,2025-10-17 06:00:00,Night,7,M004,Misalignment,Medium,Line C,233.31,True,2025-10-17,6,Friday
+392,2025-10-17 07:00:00,Evening,3,M004,Misalignment,Low,Line B,257.8,True,2025-10-17,7,Friday
+393,2025-10-17 08:00:00,Day,29,M004,Surface Scratch,Medium,Line C,171.64,True,2025-10-17,8,Friday
+394,2025-10-17 09:00:00,Night,44,M001,Misalignment,High,Line C,78.28,True,2025-10-17,9,Friday
+395,2025-10-17 10:00:00,Day,24,M001,Torque Error,Low,Line A,1400.42,True,2025-10-17,10,Friday
+396,2025-10-17 11:00:00,Night,3,M002,Wiring Fault,Medium,Line C,407.52,True,2025-10-17,11,Friday
+397,2025-10-17 12:00:00,Night,20,M003,Surface Scratch,Medium,Line A,1331.63,False,2025-10-17,12,Friday
+398,2025-10-17 13:00:00,Evening,46,M002,Misalignment,Medium,Line C,1930.19,True,2025-10-17,13,Friday
+399,2025-10-17 14:00:00,Night,15,M003,Wiring Fault,Low,Line A,425.56,True,2025-10-17,14,Friday
+400,2025-10-17 15:00:00,Night,25,M001,Contamination,Medium,Line C,108.47,False,2025-10-17,15,Friday
+401,2025-10-17 16:00:00,Day,30,M004,Torque Error,Low,Line A,331.56,True,2025-10-17,16,Friday
+402,2025-10-17 17:00:00,Night,14,M002,Torque Error,High,Line B,206.2,False,2025-10-17,17,Friday
+403,2025-10-17 18:00:00,Evening,7,M004,Wiring Fault,Low,Line A,55.69,False,2025-10-17,18,Friday
+404,2025-10-17 19:00:00,Night,17,M002,Contamination,Medium,Line A,244.27,True,2025-10-17,19,Friday
+405,2025-10-17 20:00:00,Day,44,M001,Torque Error,Medium,Line A,375.58,False,2025-10-17,20,Friday
+406,2025-10-17 21:00:00,Night,20,M001,Contamination,High,Line C,212.02,False,2025-10-17,21,Friday
+407,2025-10-17 22:00:00,Day,36,M001,Wiring Fault,Low,Line C,186.5,True,2025-10-17,22,Friday
+408,2025-10-17 23:00:00,Day,9,M002,Surface Scratch,Low,Line C,112.44,True,2025-10-17,23,Friday
+409,2025-10-18 00:00:00,Night,38,M003,Misalignment,Low,Line B,490.74,False,2025-10-18,0,Saturday
+410,2025-10-18 01:00:00,Day,48,M002,Surface Scratch,Low,Line B,2615.65,False,2025-10-18,1,Saturday
+411,2025-10-18 02:00:00,Day,22,M003,Misalignment,Low,Line A,1448.99,True,2025-10-18,2,Saturday
+412,2025-10-18 03:00:00,Night,2,M002,Misalignment,Medium,Line B,775.59,True,2025-10-18,3,Saturday
+413,2025-10-18 04:00:00,Night,24,M002,Misalignment,Low,Line A,792.67,False,2025-10-18,4,Saturday
+414,2025-10-18 05:00:00,Evening,8,M001,Contamination,Low,Line A,353.31,True,2025-10-18,5,Saturday
+415,2025-10-18 06:00:00,Evening,11,M004,Torque Error,High,Line A,66.39,True,2025-10-18,6,Saturday
+416,2025-10-18 07:00:00,Evening,13,M004,Misalignment,Low,Line B,278.82,False,2025-10-18,7,Saturday
+417,2025-10-18 08:00:00,Day,17,M003,Misalignment,Low,Line C,153.04,True,2025-10-18,8,Saturday
+418,2025-10-18 09:00:00,Day,8,M004,Surface Scratch,Low,Line B,470.92,True,2025-10-18,9,Saturday
+419,2025-10-18 10:00:00,Evening,21,M002,Wiring Fault,High,Line A,1384.67,False,2025-10-18,10,Saturday
+420,2025-10-18 11:00:00,Night,18,M002,Wiring Fault,Low,Line A,2902.74,False,2025-10-18,11,Saturday
+421,2025-10-18 12:00:00,Night,30,M001,Wiring Fault,High,Line B,430.36,True,2025-10-18,12,Saturday
+422,2025-10-18 13:00:00,Night,18,M001,Torque Error,Medium,Line A,76.16,True,2025-10-18,13,Saturday
+423,2025-10-18 14:00:00,Day,46,M004,Misalignment,Low,Line A,429.52,True,2025-10-18,14,Saturday
+424,2025-10-18 15:00:00,Evening,47,M003,Contamination,High,Line B,441.36,False,2025-10-18,15,Saturday
+425,2025-10-18 16:00:00,Day,31,M004,Torque Error,Low,Line B,795.4,True,2025-10-18,16,Saturday
+426,2025-10-18 17:00:00,Evening,38,M004,Misalignment,Low,Line B,395.76,True,2025-10-18,17,Saturday
+427,2025-10-18 18:00:00,Evening,32,M004,Torque Error,High,Line A,431.18,True,2025-10-18,18,Saturday
+428,2025-10-18 19:00:00,Night,11,M004,Misalignment,Medium,Line A,214.42,False,2025-10-18,19,Saturday
+429,2025-10-18 20:00:00,Day,45,M002,Contamination,Medium,Line C,295.33,True,2025-10-18,20,Saturday
+430,2025-10-18 21:00:00,Day,25,M003,Contamination,Low,Line C,674.0,True,2025-10-18,21,Saturday
+431,2025-10-18 22:00:00,Day,33,M002,Torque Error,Medium,Line B,54.14,True,2025-10-18,22,Saturday
+432,2025-10-18 23:00:00,Night,38,M003,Torque Error,Medium,Line C,293.74,False,2025-10-18,23,Saturday
+433,2025-10-19 00:00:00,Evening,41,M001,Torque Error,Low,Line A,802.63,True,2025-10-19,0,Sunday
+434,2025-10-19 01:00:00,Day,8,M004,Misalignment,Low,Line C,2081.26,True,2025-10-19,1,Sunday
+435,2025-10-19 02:00:00,Day,11,M002,Misalignment,Low,Line A,270.88,True,2025-10-19,2,Sunday
+436,2025-10-19 03:00:00,Night,22,M003,Wiring Fault,Low,Line B,1319.98,False,2025-10-19,3,Sunday
+437,2025-10-19 04:00:00,Day,24,M001,Torque Error,High,Line B,2186.43,True,2025-10-19,4,Sunday
+438,2025-10-19 05:00:00,Night,41,M001,Misalignment,Medium,Line A,274.41,True,2025-10-19,5,Sunday
+439,2025-10-19 06:00:00,Night,17,M004,Wiring Fault,High,Line C,230.86,True,2025-10-19,6,Sunday
+440,2025-10-19 07:00:00,Day,12,M003,Misalignment,Low,Line B,336.27,False,2025-10-19,7,Sunday
+441,2025-10-19 08:00:00,Day,46,M002,Contamination,Medium,Line B,371.69,True,2025-10-19,8,Sunday
+442,2025-10-19 09:00:00,Night,32,M004,Misalignment,Low,Line C,1200.9,False,2025-10-19,9,Sunday
+443,2025-10-19 10:00:00,Day,15,M002,Torque Error,Low,Line C,186.1,False,2025-10-19,10,Sunday
+444,2025-10-19 11:00:00,Day,16,M001,Torque Error,Low,Line A,1878.19,True,2025-10-19,11,Sunday
+445,2025-10-19 12:00:00,Night,22,M002,Misalignment,Low,Line C,181.13,True,2025-10-19,12,Sunday
+446,2025-10-19 13:00:00,Night,28,M002,Wiring Fault,Medium,Line C,113.93,True,2025-10-19,13,Sunday
+447,2025-10-19 14:00:00,Night,20,M004,Contamination,High,Line C,681.15,True,2025-10-19,14,Sunday
+448,2025-10-19 15:00:00,Night,33,M002,Misalignment,Medium,Line A,1381.0,True,2025-10-19,15,Sunday
+449,2025-10-19 16:00:00,Day,10,M004,Misalignment,Low,Line A,482.34,True,2025-10-19,16,Sunday
+450,2025-10-19 17:00:00,Day,40,M001,Misalignment,Low,Line B,623.34,False,2025-10-19,17,Sunday
+451,2025-10-19 18:00:00,Night,32,M004,Misalignment,Low,Line A,2847.79,True,2025-10-19,18,Sunday
+452,2025-10-19 19:00:00,Evening,50,M004,Torque Error,Medium,Line B,1400.6,False,2025-10-19,19,Sunday
+453,2025-10-19 20:00:00,Evening,33,M003,Wiring Fault,Medium,Line C,416.1,True,2025-10-19,20,Sunday
+454,2025-10-19 21:00:00,Night,2,M002,Contamination,High,Line B,262.13,True,2025-10-19,21,Sunday
+455,2025-10-19 22:00:00,Day,33,M001,Misalignment,Low,Line B,1205.99,False,2025-10-19,22,Sunday
+456,2025-10-19 23:00:00,Evening,33,M004,Misalignment,Medium,Line C,924.53,True,2025-10-19,23,Sunday
+457,2025-10-20 00:00:00,Day,41,M001,Misalignment,Medium,Line B,613.13,False,2025-10-20,0,Monday
+458,2025-10-20 01:00:00,Evening,13,M003,Contamination,Medium,Line A,290.9,True,2025-10-20,1,Monday
+459,2025-10-20 02:00:00,Day,30,M002,Wiring Fault,Medium,Line A,373.76,True,2025-10-20,2,Monday
+460,2025-10-20 03:00:00,Day,33,M004,Misalignment,Medium,Line A,348.1,False,2025-10-20,3,Monday
+461,2025-10-20 04:00:00,Day,13,M002,Torque Error,Medium,Line A,295.78,True,2025-10-20,4,Monday
+462,2025-10-20 05:00:00,Evening,26,M003,Wiring Fault,Low,Line B,221.15,True,2025-10-20,5,Monday
+463,2025-10-20 06:00:00,Night,22,M003,Contamination,Medium,Line B,525.95,False,2025-10-20,6,Monday
+464,2025-10-20 07:00:00,Evening,39,M001,Wiring Fault,Low,Line C,211.39,True,2025-10-20,7,Monday
+465,2025-10-20 08:00:00,Night,2,M004,Torque Error,Medium,Line B,481.73,False,2025-10-20,8,Monday
+466,2025-10-20 09:00:00,Day,38,M001,Torque Error,Medium,Line B,49.41,False,2025-10-20,9,Monday
+467,2025-10-20 10:00:00,Day,39,M003,Contamination,Medium,Line B,221.43,False,2025-10-20,10,Monday
+468,2025-10-20 11:00:00,Night,26,M002,Contamination,High,Line C,1209.94,True,2025-10-20,11,Monday
+469,2025-10-20 12:00:00,Day,46,M001,Misalignment,High,Line A,163.95,True,2025-10-20,12,Monday
+470,2025-10-20 13:00:00,Night,50,M001,Contamination,High,Line B,729.31,False,2025-10-20,13,Monday
+471,2025-10-20 14:00:00,Day,15,M002,Misalignment,Medium,Line C,178.17,True,2025-10-20,14,Monday
+472,2025-10-20 15:00:00,Night,34,M001,Torque Error,Medium,Line C,876.37,True,2025-10-20,15,Monday
+473,2025-10-20 16:00:00,Day,42,M002,Misalignment,Medium,Line C,299.73,True,2025-10-20,16,Monday
+474,2025-10-20 17:00:00,Night,44,M004,Surface Scratch,High,Line A,288.11,True,2025-10-20,17,Monday
+475,2025-10-20 18:00:00,Evening,49,M002,Torque Error,Medium,Line B,425.96,False,2025-10-20,18,Monday
+476,2025-10-20 19:00:00,Night,40,M004,Contamination,High,Line C,105.27,False,2025-10-20,19,Monday
+477,2025-10-20 20:00:00,Day,11,M002,Misalignment,High,Line A,1066.45,True,2025-10-20,20,Monday
+478,2025-10-20 21:00:00,Evening,3,M003,Wiring Fault,Medium,Line C,1485.39,True,2025-10-20,21,Monday
+479,2025-10-20 22:00:00,Night,6,M003,Wiring Fault,Low,Line C,281.45,False,2025-10-20,22,Monday
+480,2025-10-20 23:00:00,Evening,9,M004,Torque Error,Low,Line C,681.44,True,2025-10-20,23,Monday
+481,2025-10-21 00:00:00,Evening,6,M004,Misalignment,High,Line C,879.11,False,2025-10-21,0,Tuesday
+482,2025-10-21 01:00:00,Evening,9,M003,Contamination,Low,Line C,368.24,True,2025-10-21,1,Tuesday
+483,2025-10-21 02:00:00,Evening,39,M004,Misalignment,High,Line A,133.19,True,2025-10-21,2,Tuesday
+484,2025-10-21 03:00:00,Evening,31,M002,Misalignment,Medium,Line B,1986.41,True,2025-10-21,3,Tuesday
+485,2025-10-21 04:00:00,Evening,32,M002,Wiring Fault,Medium,Line B,272.46,False,2025-10-21,4,Tuesday
+486,2025-10-21 05:00:00,Night,41,M003,Torque Error,High,Line B,219.39,True,2025-10-21,5,Tuesday
+487,2025-10-21 06:00:00,Day,50,M001,Torque Error,Medium,Line B,2077.23,True,2025-10-21,6,Tuesday
+488,2025-10-21 07:00:00,Day,12,M002,Wiring Fault,Medium,Line A,742.53,True,2025-10-21,7,Tuesday
+489,2025-10-21 08:00:00,Night,8,M004,Torque Error,Medium,Line A,521.88,False,2025-10-21,8,Tuesday
+490,2025-10-21 09:00:00,Night,8,M001,Contamination,Low,Line A,152.82,False,2025-10-21,9,Tuesday
+491,2025-10-21 10:00:00,Evening,50,M001,Contamination,Medium,Line C,900.37,True,2025-10-21,10,Tuesday
+492,2025-10-21 11:00:00,Evening,28,M002,Surface Scratch,Low,Line C,3369.676856156396,True,2025-10-21,11,Tuesday
+493,2025-10-21 12:00:00,Day,20,M002,Misalignment,High,Line C,973.12,True,2025-10-21,12,Tuesday
+494,2025-10-21 13:00:00,Day,47,M001,Surface Scratch,High,Line B,662.55,True,2025-10-21,13,Tuesday
+495,2025-10-21 14:00:00,Evening,7,M001,Wiring Fault,Low,Line C,829.72,True,2025-10-21,14,Tuesday
+496,2025-10-21 15:00:00,Day,11,M003,Misalignment,Medium,Line B,290.58,True,2025-10-21,15,Tuesday
+497,2025-10-21 16:00:00,Evening,20,M004,Torque Error,Medium,Line C,287.82,True,2025-10-21,16,Tuesday
+498,2025-10-21 17:00:00,Day,16,M003,Wiring Fault,Low,Line B,284.16,True,2025-10-21,17,Tuesday
+499,2025-10-21 18:00:00,Night,4,M002,Torque Error,High,Line C,227.02,True,2025-10-21,18,Tuesday
+500,2025-10-21 19:00:00,Night,6,M003,Surface Scratch,Low,Line C,283.6,False,2025-10-21,19,Tuesday
+501,2025-10-21 20:00:00,Evening,22,M003,Surface Scratch,Low,Line A,282.28,True,2025-10-21,20,Tuesday
+502,2025-10-21 21:00:00,Evening,26,M003,Contamination,Medium,Line C,315.87,True,2025-10-21,21,Tuesday
+503,2025-10-21 22:00:00,Day,3,M003,Contamination,Medium,Line C,307.15,True,2025-10-21,22,Tuesday
+504,2025-10-21 23:00:00,Night,41,M004,Surface Scratch,Medium,Line A,514.41,True,2025-10-21,23,Tuesday
+505,2025-10-22 00:00:00,Evening,42,M004,Torque Error,Medium,Line B,436.5,True,2025-10-22,0,Wednesday
+506,2025-10-22 01:00:00,Day,14,M001,Misalignment,Medium,Line A,476.93,False,2025-10-22,1,Wednesday
+507,2025-10-22 02:00:00,Night,11,M002,Misalignment,Medium,Line A,1848.81,True,2025-10-22,2,Wednesday
+508,2025-10-22 03:00:00,Night,18,M003,Torque Error,Low,Line B,435.6,True,2025-10-22,3,Wednesday
+509,2025-10-22 04:00:00,Night,12,M001,Surface Scratch,Low,Line C,3369.676856156396,True,2025-10-22,4,Wednesday
+510,2025-10-22 05:00:00,Night,23,M001,Wiring Fault,Low,Line B,574.03,False,2025-10-22,5,Wednesday
+511,2025-10-22 06:00:00,Evening,12,M001,Torque Error,Low,Line C,257.94,True,2025-10-22,6,Wednesday
+512,2025-10-22 07:00:00,Evening,13,M004,Misalignment,Medium,Line C,1555.55,True,2025-10-22,7,Wednesday
+513,2025-10-22 08:00:00,Night,25,M003,Misalignment,Low,Line B,372.59,True,2025-10-22,8,Wednesday
+514,2025-10-22 09:00:00,Night,45,M003,Wiring Fault,Low,Line A,36.83,True,2025-10-22,9,Wednesday
+515,2025-10-22 10:00:00,Day,19,M002,Misalignment,Low,Line B,401.82,False,2025-10-22,10,Wednesday
+516,2025-10-22 11:00:00,Day,46,M003,Misalignment,High,Line C,314.45,False,2025-10-22,11,Wednesday
+517,2025-10-22 12:00:00,Day,36,M003,Misalignment,High,Line B,2011.32,True,2025-10-22,12,Wednesday
+518,2025-10-22 13:00:00,Night,45,M001,Torque Error,Medium,Line B,164.42,True,2025-10-22,13,Wednesday
+519,2025-10-22 14:00:00,Night,8,M002,Surface Scratch,High,Line C,289.27,False,2025-10-22,14,Wednesday
+520,2025-10-22 15:00:00,Day,29,M003,Misalignment,Medium,Line A,1433.16,True,2025-10-22,15,Wednesday
+521,2025-10-22 16:00:00,Evening,32,M004,Contamination,Medium,Line B,598.49,True,2025-10-22,16,Wednesday
+522,2025-10-22 17:00:00,Day,44,M003,Torque Error,Low,Line C,339.86,False,2025-10-22,17,Wednesday
+523,2025-10-22 18:00:00,Night,18,M001,Surface Scratch,Medium,Line C,189.33,False,2025-10-22,18,Wednesday
+524,2025-10-22 19:00:00,Night,6,M004,Misalignment,Medium,Line B,573.49,True,2025-10-22,19,Wednesday
+525,2025-10-22 20:00:00,Night,18,M001,Contamination,Medium,Line A,391.78,True,2025-10-22,20,Wednesday
+526,2025-10-22 21:00:00,Evening,19,M003,Contamination,Medium,Line B,187.2,True,2025-10-22,21,Wednesday
+527,2025-10-22 22:00:00,Evening,22,M004,Wiring Fault,Medium,Line A,197.19,False,2025-10-22,22,Wednesday
+528,2025-10-22 23:00:00,Day,37,M002,Contamination,Medium,Line A,178.67,True,2025-10-22,23,Wednesday
+529,2025-10-23 00:00:00,Day,32,M002,Misalignment,High,Line A,149.52,True,2025-10-23,0,Thursday
+530,2025-10-23 01:00:00,Night,41,M004,Torque Error,Low,Line A,1026.63,True,2025-10-23,1,Thursday
+531,2025-10-23 02:00:00,Night,3,M004,Wiring Fault,Medium,Line B,897.3,True,2025-10-23,2,Thursday
+532,2025-10-23 03:00:00,Night,28,M001,Misalignment,Medium,Line C,1028.31,True,2025-10-23,3,Thursday
+533,2025-10-23 04:00:00,Night,10,M004,Wiring Fault,Medium,Line C,405.25,True,2025-10-23,4,Thursday
+534,2025-10-23 05:00:00,Evening,35,M001,Misalignment,Medium,Line C,316.52,True,2025-10-23,5,Thursday
+535,2025-10-23 06:00:00,Night,29,M003,Torque Error,Low,Line C,322.34,True,2025-10-23,6,Thursday
+536,2025-10-23 07:00:00,Night,15,M001,Contamination,Medium,Line C,1120.02,False,2025-10-23,7,Thursday
+537,2025-10-23 08:00:00,Night,33,M004,Torque Error,Low,Line C,65.36,True,2025-10-23,8,Thursday
+538,2025-10-23 09:00:00,Day,7,M004,Contamination,Medium,Line B,241.17,False,2025-10-23,9,Thursday
+539,2025-10-23 10:00:00,Evening,12,M003,Wiring Fault,Medium,Line A,166.11,False,2025-10-23,10,Thursday
+540,2025-10-23 11:00:00,Day,49,M004,Torque Error,Medium,Line C,1571.66,True,2025-10-23,11,Thursday
+541,2025-10-23 12:00:00,Night,30,M004,Torque Error,Low,Line B,250.27,True,2025-10-23,12,Thursday
+542,2025-10-23 13:00:00,Evening,21,M002,Wiring Fault,Medium,Line C,78.57,False,2025-10-23,13,Thursday
+543,2025-10-23 14:00:00,Day,31,M002,Wiring Fault,Low,Line C,504.43,True,2025-10-23,14,Thursday
+544,2025-10-23 15:00:00,Evening,24,M003,Misalignment,High,Line A,278.63,True,2025-10-23,15,Thursday
+545,2025-10-23 16:00:00,Evening,20,M001,Contamination,High,Line A,231.15,True,2025-10-23,16,Thursday
+546,2025-10-23 17:00:00,Day,37,M002,Surface Scratch,High,Line A,208.51,True,2025-10-23,17,Thursday
+547,2025-10-23 18:00:00,Day,4,M001,Misalignment,Medium,Line C,200.44,False,2025-10-23,18,Thursday
+548,2025-10-23 19:00:00,Evening,28,M004,Torque Error,Medium,Line C,819.39,False,2025-10-23,19,Thursday
+549,2025-10-23 20:00:00,Evening,44,M002,Surface Scratch,Low,Line C,504.61,False,2025-10-23,20,Thursday
+550,2025-10-23 21:00:00,Night,20,M003,Misalignment,Low,Line A,330.97,True,2025-10-23,21,Thursday
+551,2025-10-23 22:00:00,Evening,24,M003,Torque Error,Medium,Line B,134.53,True,2025-10-23,22,Thursday
+552,2025-10-23 23:00:00,Night,50,M003,Contamination,Medium,Line C,340.74,True,2025-10-23,23,Thursday
+553,2025-10-24 00:00:00,Evening,49,M002,Torque Error,High,Line C,523.55,True,2025-10-24,0,Friday
+554,2025-10-24 01:00:00,Evening,32,M001,Misalignment,Low,Line C,543.84,True,2025-10-24,1,Friday
+555,2025-10-24 02:00:00,Night,41,M004,Misalignment,High,Line B,473.85,True,2025-10-24,2,Friday
+556,2025-10-24 03:00:00,Evening,36,M001,Torque Error,Medium,Line C,160.36,True,2025-10-24,3,Friday
+557,2025-10-24 04:00:00,Day,34,M001,Wiring Fault,Medium,Line B,36.48,True,2025-10-24,4,Friday
+558,2025-10-24 05:00:00,Day,36,M004,Wiring Fault,Low,Line C,2439.67,True,2025-10-24,5,Friday
+559,2025-10-24 06:00:00,Night,2,M004,Contamination,Low,Line B,108.89,True,2025-10-24,6,Friday
+560,2025-10-24 07:00:00,Evening,15,M002,Misalignment,Medium,Line C,56.55,True,2025-10-24,7,Friday
+561,2025-10-24 08:00:00,Night,34,M002,Torque Error,Medium,Line A,459.67,True,2025-10-24,8,Friday
+562,2025-10-24 09:00:00,Day,36,M002,Misalignment,Low,Line A,73.07,True,2025-10-24,9,Friday
+563,2025-10-24 10:00:00,Day,6,M002,Surface Scratch,Medium,Line A,180.4,False,2025-10-24,10,Friday
+564,2025-10-24 11:00:00,Day,39,M002,Wiring Fault,High,Line A,698.44,False,2025-10-24,11,Friday
+565,2025-10-24 12:00:00,Day,42,M004,Torque Error,High,Line C,2374.84,False,2025-10-24,12,Friday
+566,2025-10-24 13:00:00,Evening,12,M001,Surface Scratch,High,Line A,594.38,True,2025-10-24,13,Friday
+567,2025-10-24 14:00:00,Day,3,M002,Misalignment,Low,Line B,260.04,True,2025-10-24,14,Friday
+568,2025-10-24 15:00:00,Evening,45,M002,Torque Error,Low,Line A,383.21,True,2025-10-24,15,Friday
+569,2025-10-24 16:00:00,Night,18,M001,Contamination,Medium,Line A,66.12,False,2025-10-24,16,Friday
+570,2025-10-24 17:00:00,Day,40,M002,Surface Scratch,Medium,Line A,257.04,True,2025-10-24,17,Friday
+571,2025-10-24 18:00:00,Evening,21,M001,Misalignment,Low,Line C,257.29,False,2025-10-24,18,Friday
+572,2025-10-24 19:00:00,Night,15,M001,Torque Error,Low,Line A,470.28,True,2025-10-24,19,Friday
+573,2025-10-24 20:00:00,Day,33,M004,Wiring Fault,Medium,Line B,2813.51,False,2025-10-24,20,Friday
+574,2025-10-24 21:00:00,Evening,35,M003,Misalignment,Low,Line A,58.16,False,2025-10-24,21,Friday
+575,2025-10-24 22:00:00,Night,26,M004,Contamination,Low,Line A,268.36,True,2025-10-24,22,Friday
+576,2025-10-24 23:00:00,Night,8,M003,Wiring Fault,Low,Line A,64.49,True,2025-10-24,23,Friday
+577,2025-10-25 00:00:00,Day,36,M003,Contamination,Low,Line B,243.87,True,2025-10-25,0,Saturday
+578,2025-10-25 01:00:00,Night,48,M003,Misalignment,Medium,Line A,169.93,True,2025-10-25,1,Saturday
+579,2025-10-25 02:00:00,Evening,30,M002,Misalignment,Medium,Line B,90.53,True,2025-10-25,2,Saturday
+580,2025-10-25 03:00:00,Day,23,M004,Misalignment,Medium,Line B,1005.35,True,2025-10-25,3,Saturday
+581,2025-10-25 04:00:00,Evening,42,M003,Wiring Fault,Low,Line A,520.95,True,2025-10-25,4,Saturday
+582,2025-10-25 05:00:00,Night,44,M001,Torque Error,Low,Line B,894.13,True,2025-10-25,5,Saturday
+583,2025-10-25 06:00:00,Evening,14,M002,Misalignment,Medium,Line C,237.07,True,2025-10-25,6,Saturday
+584,2025-10-25 07:00:00,Day,14,M004,Contamination,Medium,Line A,375.89,True,2025-10-25,7,Saturday
+585,2025-10-25 08:00:00,Evening,2,M003,Contamination,Medium,Line A,1987.52,True,2025-10-25,8,Saturday
+586,2025-10-25 09:00:00,Day,37,M001,Misalignment,Low,Line B,402.33,True,2025-10-25,9,Saturday
+587,2025-10-25 10:00:00,Day,5,M004,Contamination,High,Line B,905.02,False,2025-10-25,10,Saturday
+588,2025-10-25 11:00:00,Day,38,M004,Contamination,Low,Line A,217.58,True,2025-10-25,11,Saturday
+589,2025-10-25 12:00:00,Day,45,M002,Contamination,Medium,Line C,825.52,False,2025-10-25,12,Saturday
+590,2025-10-25 13:00:00,Day,41,M004,Torque Error,Medium,Line B,233.01,True,2025-10-25,13,Saturday
+591,2025-10-25 14:00:00,Day,47,M002,Misalignment,Medium,Line B,60.56,True,2025-10-25,14,Saturday
+592,2025-10-25 15:00:00,Evening,14,M003,Torque Error,Low,Line C,400.38,True,2025-10-25,15,Saturday
+593,2025-10-25 16:00:00,Day,39,M002,Torque Error,Medium,Line C,252.07,True,2025-10-25,16,Saturday
+594,2025-10-25 17:00:00,Day,25,M001,Torque Error,Medium,Line A,79.46,True,2025-10-25,17,Saturday
+595,2025-10-25 18:00:00,Night,20,M002,Torque Error,Low,Line C,488.57,True,2025-10-25,18,Saturday
+596,2025-10-25 19:00:00,Evening,2,M001,Contamination,Low,Line A,165.09,True,2025-10-25,19,Saturday
+597,2025-10-25 20:00:00,Evening,39,M002,Wiring Fault,Low,Line C,3369.676856156396,True,2025-10-25,20,Saturday
+598,2025-10-25 21:00:00,Day,6,M004,Torque Error,High,Line B,93.28,True,2025-10-25,21,Saturday
+599,2025-10-25 22:00:00,Day,17,M003,Contamination,Low,Line A,119.95,False,2025-10-25,22,Saturday
+600,2025-10-25 23:00:00,Day,25,M001,Wiring Fault,High,Line A,962.52,True,2025-10-25,23,Saturday
+601,2025-10-26 00:00:00,Day,28,M002,Torque Error,Medium,Line A,353.18,True,2025-10-26,0,Sunday
+602,2025-10-26 01:00:00,Day,2,M002,Misalignment,High,Line C,943.13,False,2025-10-26,1,Sunday
+603,2025-10-26 02:00:00,Day,35,M002,Misalignment,High,Line B,590.16,True,2025-10-26,2,Sunday
+604,2025-10-26 03:00:00,Day,37,M004,Misalignment,Medium,Line A,225.36,False,2025-10-26,3,Sunday
+605,2025-10-26 04:00:00,Day,5,M004,Wiring Fault,Low,Line A,101.59,True,2025-10-26,4,Sunday
+606,2025-10-26 05:00:00,Evening,1,M001,Torque Error,Low,Line A,1177.42,True,2025-10-26,5,Sunday
+607,2025-10-26 06:00:00,Day,40,M001,Surface Scratch,Low,Line A,111.22,False,2025-10-26,6,Sunday
+608,2025-10-26 07:00:00,Day,12,M004,Torque Error,Medium,Line B,705.5,True,2025-10-26,7,Sunday
+609,2025-10-26 08:00:00,Evening,36,M001,Contamination,Low,Line C,1011.31,False,2025-10-26,8,Sunday
+610,2025-10-26 09:00:00,Evening,45,M003,Misalignment,Low,Line B,355.34,True,2025-10-26,9,Sunday
+611,2025-10-26 10:00:00,Day,23,M003,Torque Error,Medium,Line A,297.63,True,2025-10-26,10,Sunday
+612,2025-10-26 11:00:00,Night,47,M004,Torque Error,High,Line B,150.85,False,2025-10-26,11,Sunday
+613,2025-10-26 12:00:00,Evening,31,M001,Surface Scratch,Low,Line A,640.82,True,2025-10-26,12,Sunday
+614,2025-10-26 13:00:00,Day,11,M002,Misalignment,Low,Line C,19.18,False,2025-10-26,13,Sunday
+615,2025-10-26 14:00:00,Night,10,M003,Contamination,Low,Line C,825.28,True,2025-10-26,14,Sunday
+616,2025-10-26 15:00:00,Night,3,M004,Torque Error,High,Line C,454.63,True,2025-10-26,15,Sunday
+617,2025-10-26 16:00:00,Day,14,M001,Torque Error,Medium,Line A,322.85,True,2025-10-26,16,Sunday
+618,2025-10-26 17:00:00,Day,16,M004,Torque Error,Low,Line B,514.04,False,2025-10-26,17,Sunday
+619,2025-10-26 18:00:00,Night,10,M002,Wiring Fault,Low,Line C,102.15,True,2025-10-26,18,Sunday
+620,2025-10-26 19:00:00,Night,29,M003,Misalignment,Low,Line A,36.13,True,2025-10-26,19,Sunday
+621,2025-10-26 20:00:00,Day,10,M004,Torque Error,Low,Line A,644.56,False,2025-10-26,20,Sunday
+622,2025-10-26 21:00:00,Day,12,M004,Torque Error,High,Line B,1505.0,False,2025-10-26,21,Sunday
+623,2025-10-26 22:00:00,Day,30,M004,Wiring Fault,Medium,Line C,70.85,True,2025-10-26,22,Sunday
+624,2025-10-26 23:00:00,Evening,41,M002,Wiring Fault,Medium,Line A,140.83,True,2025-10-26,23,Sunday
+625,2025-10-27 00:00:00,Evening,1,M004,Contamination,High,Line B,856.05,True,2025-10-27,0,Monday
+626,2025-10-27 01:00:00,Day,5,M002,Misalignment,Low,Line C,577.6,True,2025-10-27,1,Monday
+627,2025-10-27 02:00:00,Evening,20,M002,Surface Scratch,Medium,Line B,3369.676856156396,True,2025-10-27,2,Monday
+628,2025-10-27 03:00:00,Night,8,M002,Contamination,High,Line B,1182.82,True,2025-10-27,3,Monday
+629,2025-10-27 04:00:00,Day,43,M003,Surface Scratch,Low,Line A,930.22,True,2025-10-27,4,Monday
+630,2025-10-27 05:00:00,Day,12,M003,Misalignment,Medium,Line A,187.96,False,2025-10-27,5,Monday
+631,2025-10-27 06:00:00,Night,1,M004,Torque Error,Low,Line A,681.85,False,2025-10-27,6,Monday
+632,2025-10-27 07:00:00,Night,20,M004,Wiring Fault,Low,Line B,1799.77,True,2025-10-27,7,Monday
+633,2025-10-27 08:00:00,Evening,28,M003,Surface Scratch,Low,Line A,342.27,True,2025-10-27,8,Monday
+634,2025-10-27 09:00:00,Evening,43,M001,Contamination,Medium,Line B,358.81,True,2025-10-27,9,Monday
+635,2025-10-27 10:00:00,Day,37,M003,Torque Error,Medium,Line B,464.68,True,2025-10-27,10,Monday
+636,2025-10-27 11:00:00,Evening,47,M002,Contamination,High,Line A,207.58,False,2025-10-27,11,Monday
+637,2025-10-27 12:00:00,Evening,37,M003,Misalignment,Medium,Line C,527.93,True,2025-10-27,12,Monday
+638,2025-10-27 13:00:00,Day,12,M002,Torque Error,High,Line C,514.9,True,2025-10-27,13,Monday
+639,2025-10-27 14:00:00,Day,37,M004,Torque Error,High,Line C,1772.22,True,2025-10-27,14,Monday
+640,2025-10-27 15:00:00,Day,49,M001,Surface Scratch,Low,Line B,333.82,True,2025-10-27,15,Monday
+641,2025-10-27 16:00:00,Day,49,M004,Contamination,Medium,Line B,792.13,True,2025-10-27,16,Monday
+642,2025-10-27 17:00:00,Day,44,M002,Misalignment,Low,Line B,343.93,True,2025-10-27,17,Monday
+643,2025-10-27 18:00:00,Day,28,M002,Misalignment,Medium,Line A,764.91,True,2025-10-27,18,Monday
+644,2025-10-27 19:00:00,Day,47,M002,Contamination,High,Line B,314.17,True,2025-10-27,19,Monday
+645,2025-10-27 20:00:00,Day,15,M001,Contamination,Low,Line A,715.85,False,2025-10-27,20,Monday
+646,2025-10-27 21:00:00,Night,6,M003,Wiring Fault,Medium,Line A,835.67,False,2025-10-27,21,Monday
+647,2025-10-27 22:00:00,Evening,44,M004,Contamination,Medium,Line C,138.84,True,2025-10-27,22,Monday
+648,2025-10-27 23:00:00,Evening,20,M004,Surface Scratch,Medium,Line C,1214.85,True,2025-10-27,23,Monday
+649,2025-10-28 00:00:00,Night,50,M003,Surface Scratch,Low,Line C,341.56,True,2025-10-28,0,Tuesday
+650,2025-10-28 01:00:00,Evening,14,M004,Torque Error,Low,Line A,252.2,True,2025-10-28,1,Tuesday
+651,2025-10-28 02:00:00,Day,2,M001,Surface Scratch,Low,Line A,198.34,True,2025-10-28,2,Tuesday
+652,2025-10-28 03:00:00,Evening,9,M004,Wiring Fault,Low,Line A,543.59,True,2025-10-28,3,Tuesday
+653,2025-10-28 04:00:00,Evening,37,M002,Contamination,Low,Line B,401.57,True,2025-10-28,4,Tuesday
+654,2025-10-28 05:00:00,Night,20,M003,Misalignment,Medium,Line A,584.53,True,2025-10-28,5,Tuesday
+655,2025-10-28 06:00:00,Evening,26,M001,Contamination,Low,Line C,595.99,True,2025-10-28,6,Tuesday
+656,2025-10-28 07:00:00,Day,29,M003,Torque Error,High,Line C,741.43,True,2025-10-28,7,Tuesday
+657,2025-10-28 08:00:00,Day,1,M001,Wiring Fault,Medium,Line A,3369.676856156396,False,2025-10-28,8,Tuesday
+658,2025-10-28 09:00:00,Day,35,M002,Contamination,Medium,Line A,419.76,True,2025-10-28,9,Tuesday
+659,2025-10-28 10:00:00,Evening,6,M003,Wiring Fault,Medium,Line C,193.53,True,2025-10-28,10,Tuesday
+660,2025-10-28 11:00:00,Evening,37,M004,Torque Error,Medium,Line A,53.53,True,2025-10-28,11,Tuesday
+661,2025-10-28 12:00:00,Day,5,M001,Misalignment,High,Line C,122.08,False,2025-10-28,12,Tuesday
+662,2025-10-28 13:00:00,Night,33,M003,Surface Scratch,Low,Line B,1387.62,False,2025-10-28,13,Tuesday
+663,2025-10-28 14:00:00,Evening,49,M004,Contamination,Low,Line C,828.75,False,2025-10-28,14,Tuesday
+664,2025-10-28 15:00:00,Day,14,M003,Contamination,Medium,Line B,104.59,True,2025-10-28,15,Tuesday
+665,2025-10-28 16:00:00,Day,12,M003,Torque Error,Low,Line A,3369.676856156396,True,2025-10-28,16,Tuesday
+666,2025-10-28 17:00:00,Day,42,M003,Misalignment,Low,Line A,559.34,False,2025-10-28,17,Tuesday
+667,2025-10-28 18:00:00,Day,20,M001,Torque Error,Low,Line B,639.26,True,2025-10-28,18,Tuesday
+668,2025-10-28 19:00:00,Day,50,M004,Contamination,Low,Line A,3369.676856156396,True,2025-10-28,19,Tuesday
+669,2025-10-28 20:00:00,Day,24,M002,Contamination,Medium,Line B,2297.22,False,2025-10-28,20,Tuesday
+670,2025-10-28 21:00:00,Day,43,M001,Surface Scratch,Low,Line A,881.07,True,2025-10-28,21,Tuesday
+671,2025-10-28 22:00:00,Day,34,M001,Contamination,High,Line C,924.46,True,2025-10-28,22,Tuesday
+672,2025-10-28 23:00:00,Night,25,M001,Misalignment,Medium,Line A,1015.14,True,2025-10-28,23,Tuesday
+673,2025-10-29 00:00:00,Day,50,M002,Contamination,Medium,Line C,317.04,True,2025-10-29,0,Wednesday
+674,2025-10-29 01:00:00,Evening,29,M004,Surface Scratch,Medium,Line C,537.43,True,2025-10-29,1,Wednesday
+675,2025-10-29 02:00:00,Evening,39,M004,Misalignment,High,Line B,716.46,True,2025-10-29,2,Wednesday
+676,2025-10-29 03:00:00,Night,31,M004,Misalignment,Low,Line A,355.39,False,2025-10-29,3,Wednesday
+677,2025-10-29 04:00:00,Day,47,M003,Misalignment,High,Line B,153.64,True,2025-10-29,4,Wednesday
+678,2025-10-29 05:00:00,Day,43,M003,Misalignment,Medium,Line A,309.16,False,2025-10-29,5,Wednesday
+679,2025-10-29 06:00:00,Night,50,M003,Wiring Fault,Medium,Line C,150.21,True,2025-10-29,6,Wednesday
+680,2025-10-29 07:00:00,Night,23,M002,Torque Error,Medium,Line C,430.25,True,2025-10-29,7,Wednesday
+681,2025-10-29 08:00:00,Night,44,M003,Contamination,Low,Line A,68.0,False,2025-10-29,8,Wednesday
+682,2025-10-29 09:00:00,Day,38,M002,Torque Error,Medium,Line A,567.39,False,2025-10-29,9,Wednesday
+683,2025-10-29 10:00:00,Day,20,M004,Contamination,Medium,Line B,78.94,True,2025-10-29,10,Wednesday
+684,2025-10-29 11:00:00,Evening,23,M003,Surface Scratch,Low,Line A,269.49,False,2025-10-29,11,Wednesday
+685,2025-10-29 12:00:00,Night,45,M003,Surface Scratch,Medium,Line A,667.88,False,2025-10-29,12,Wednesday
+686,2025-10-29 13:00:00,Evening,16,M001,Contamination,Low,Line A,889.93,False,2025-10-29,13,Wednesday
+687,2025-10-29 14:00:00,Evening,50,M002,Wiring Fault,Low,Line B,790.26,True,2025-10-29,14,Wednesday
+688,2025-10-29 15:00:00,Day,42,M004,Wiring Fault,Low,Line A,555.43,False,2025-10-29,15,Wednesday
+689,2025-10-29 16:00:00,Night,8,M001,Contamination,Low,Line C,131.73,False,2025-10-29,16,Wednesday
+690,2025-10-29 17:00:00,Day,50,M001,Misalignment,Medium,Line B,1075.57,False,2025-10-29,17,Wednesday
+691,2025-10-29 18:00:00,Day,21,M004,Contamination,Low,Line B,134.77,True,2025-10-29,18,Wednesday
+692,2025-10-29 19:00:00,Evening,1,M001,Wiring Fault,High,Line C,1205.41,True,2025-10-29,19,Wednesday
+693,2025-10-29 20:00:00,Evening,8,M002,Surface Scratch,Medium,Line C,755.75,True,2025-10-29,20,Wednesday
+694,2025-10-29 21:00:00,Day,29,M002,Wiring Fault,Low,Line C,1570.11,True,2025-10-29,21,Wednesday
+695,2025-10-29 22:00:00,Day,32,M003,Wiring Fault,Medium,Line A,413.59,False,2025-10-29,22,Wednesday
+696,2025-10-29 23:00:00,Evening,38,M001,Torque Error,High,Line C,177.9,True,2025-10-29,23,Wednesday
+697,2025-10-30 00:00:00,Day,5,M003,Wiring Fault,Medium,Line A,110.76,True,2025-10-30,0,Thursday
+698,2025-10-30 01:00:00,Evening,47,M001,Wiring Fault,Low,Line B,123.77,False,2025-10-30,1,Thursday
+699,2025-10-30 02:00:00,Day,22,M002,Contamination,High,Line B,78.51,True,2025-10-30,2,Thursday
+700,2025-10-30 03:00:00,Evening,47,M002,Torque Error,Medium,Line C,1034.84,True,2025-10-30,3,Thursday
+701,2025-10-30 04:00:00,Evening,34,M002,Wiring Fault,Low,Line A,1173.11,True,2025-10-30,4,Thursday
+702,2025-10-30 05:00:00,Day,1,M001,Misalignment,Low,Line C,701.84,True,2025-10-30,5,Thursday
+703,2025-10-30 06:00:00,Day,26,M002,Wiring Fault,Medium,Line C,390.32,True,2025-10-30,6,Thursday
+704,2025-10-30 07:00:00,Day,43,M001,Misalignment,Low,Line A,3168.33,False,2025-10-30,7,Thursday
+705,2025-10-30 08:00:00,Day,10,M003,Contamination,High,Line C,365.71,True,2025-10-30,8,Thursday
+706,2025-10-30 09:00:00,Night,30,M001,Wiring Fault,Low,Line B,503.16,True,2025-10-30,9,Thursday
+707,2025-10-30 10:00:00,Day,50,M003,Misalignment,High,Line C,384.58,True,2025-10-30,10,Thursday
+708,2025-10-30 11:00:00,Night,18,M001,Misalignment,Medium,Line A,287.63,True,2025-10-30,11,Thursday
+709,2025-10-30 12:00:00,Day,17,M003,Contamination,Low,Line A,758.22,True,2025-10-30,12,Thursday
+710,2025-10-30 13:00:00,Evening,26,M002,Wiring Fault,Low,Line B,214.11,True,2025-10-30,13,Thursday
+711,2025-10-30 14:00:00,Night,8,M003,Misalignment,Medium,Line A,200.22,True,2025-10-30,14,Thursday
+712,2025-10-30 15:00:00,Evening,47,M002,Surface Scratch,Medium,Line A,797.49,False,2025-10-30,15,Thursday
+713,2025-10-30 16:00:00,Evening,40,M002,Misalignment,Medium,Line B,245.28,True,2025-10-30,16,Thursday
+714,2025-10-30 17:00:00,Evening,49,M003,Surface Scratch,Low,Line C,461.04,True,2025-10-30,17,Thursday
+715,2025-10-30 18:00:00,Day,12,M001,Surface Scratch,Low,Line B,286.77,False,2025-10-30,18,Thursday
+716,2025-10-30 19:00:00,Night,27,M001,Contamination,Low,Line C,398.8,True,2025-10-30,19,Thursday
+717,2025-10-30 20:00:00,Night,8,M004,Contamination,Medium,Line B,205.76,True,2025-10-30,20,Thursday
+718,2025-10-30 21:00:00,Night,25,M001,Contamination,Low,Line C,212.6,True,2025-10-30,21,Thursday
+719,2025-10-30 22:00:00,Day,46,M004,Torque Error,Medium,Line B,177.73,True,2025-10-30,22,Thursday
+720,2025-10-30 23:00:00,Night,4,M001,Misalignment,Medium,Line C,937.61,True,2025-10-30,23,Thursday
+721,2025-10-31 00:00:00,Night,33,M001,Misalignment,High,Line B,479.09,True,2025-10-31,0,Friday
+722,2025-10-31 01:00:00,Day,1,M002,Misalignment,Low,Line C,1010.85,True,2025-10-31,1,Friday
+723,2025-10-31 02:00:00,Day,19,M004,Contamination,Low,Line B,1124.83,True,2025-10-31,2,Friday
+724,2025-10-31 03:00:00,Night,31,M001,Misalignment,Medium,Line A,254.7,True,2025-10-31,3,Friday
+725,2025-10-31 04:00:00,Evening,16,M004,Torque Error,Medium,Line C,974.17,True,2025-10-31,4,Friday
+726,2025-10-31 05:00:00,Night,14,M002,Surface Scratch,Low,Line B,397.77,False,2025-10-31,5,Friday
+727,2025-10-31 06:00:00,Day,48,M002,Contamination,High,Line C,344.24,False,2025-10-31,6,Friday
+728,2025-10-31 07:00:00,Night,5,M004,Torque Error,High,Line C,1411.44,False,2025-10-31,7,Friday
+729,2025-10-31 08:00:00,Day,41,M002,Contamination,Low,Line B,701.88,True,2025-10-31,8,Friday
+730,2025-10-31 09:00:00,Day,26,M003,Wiring Fault,Low,Line C,283.6,True,2025-10-31,9,Friday
+731,2025-10-31 10:00:00,Day,28,M003,Surface Scratch,Medium,Line B,657.73,True,2025-10-31,10,Friday
+732,2025-10-31 11:00:00,Night,2,M002,Wiring Fault,Medium,Line A,113.78,True,2025-10-31,11,Friday
+733,2025-10-31 12:00:00,Evening,50,M003,Surface Scratch,Low,Line C,516.62,True,2025-10-31,12,Friday
+734,2025-10-31 13:00:00,Evening,6,M001,Misalignment,Medium,Line A,90.05,True,2025-10-31,13,Friday
+735,2025-10-31 14:00:00,Day,9,M004,Wiring Fault,Medium,Line C,150.75,True,2025-10-31,14,Friday
+736,2025-10-31 15:00:00,Night,33,M001,Wiring Fault,Low,Line C,723.89,True,2025-10-31,15,Friday
+737,2025-10-31 16:00:00,Day,41,M004,Misalignment,Medium,Line C,27.93,False,2025-10-31,16,Friday
+738,2025-10-31 17:00:00,Night,25,M002,Surface Scratch,High,Line B,2446.74,True,2025-10-31,17,Friday
+739,2025-10-31 18:00:00,Evening,48,M001,Misalignment,Low,Line A,929.36,True,2025-10-31,18,Friday
+740,2025-10-31 19:00:00,Day,13,M002,Torque Error,Low,Line C,64.17,True,2025-10-31,19,Friday
+741,2025-10-31 20:00:00,Evening,9,M002,Misalignment,Medium,Line B,3369.676856156396,True,2025-10-31,20,Friday
+742,2025-10-31 21:00:00,Day,13,M004,Contamination,High,Line C,3369.676856156396,True,2025-10-31,21,Friday
+743,2025-10-31 22:00:00,Night,31,M004,Torque Error,High,Line B,336.81,True,2025-10-31,22,Friday
+744,2025-10-31 23:00:00,Evening,41,M004,Torque Error,Medium,Line C,159.73,True,2025-10-31,23,Friday
+745,2025-11-01 00:00:00,Day,11,M001,Contamination,Medium,Line A,2178.31,False,2025-11-01,0,Saturday
+746,2025-11-01 01:00:00,Night,4,M003,Contamination,Medium,Line A,286.06,False,2025-11-01,1,Saturday
+747,2025-11-01 02:00:00,Day,34,M004,Wiring Fault,Medium,Line C,473.92,False,2025-11-01,2,Saturday
+748,2025-11-01 03:00:00,Evening,38,M004,Misalignment,Low,Line B,1362.79,False,2025-11-01,3,Saturday
+749,2025-11-01 04:00:00,Night,46,M001,Contamination,Low,Line C,346.02,True,2025-11-01,4,Saturday
+750,2025-11-01 05:00:00,Evening,4,M004,Surface Scratch,Low,Line B,317.01,True,2025-11-01,5,Saturday
+751,2025-11-01 06:00:00,Day,38,M001,Wiring Fault,Medium,Line C,113.02,True,2025-11-01,6,Saturday
+752,2025-11-01 07:00:00,Night,19,M002,Contamination,Low,Line B,214.75,True,2025-11-01,7,Saturday
+753,2025-11-01 08:00:00,Evening,6,M004,Wiring Fault,High,Line A,310.83,True,2025-11-01,8,Saturday
+754,2025-11-01 09:00:00,Day,34,M004,Wiring Fault,Low,Line C,116.91,False,2025-11-01,9,Saturday
+755,2025-11-01 10:00:00,Day,18,M002,Wiring Fault,Low,Line A,128.0,True,2025-11-01,10,Saturday
+756,2025-11-01 11:00:00,Night,13,M002,Contamination,Medium,Line A,417.21,True,2025-11-01,11,Saturday
+757,2025-11-01 12:00:00,Evening,41,M002,Misalignment,Medium,Line C,63.45,True,2025-11-01,12,Saturday
+758,2025-11-01 13:00:00,Evening,23,M004,Misalignment,Low,Line C,167.48,False,2025-11-01,13,Saturday
+759,2025-11-01 14:00:00,Night,19,M003,Misalignment,Low,Line B,2820.29,True,2025-11-01,14,Saturday
+760,2025-11-01 15:00:00,Night,45,M003,Torque Error,High,Line B,285.58,False,2025-11-01,15,Saturday
+761,2025-11-01 16:00:00,Day,11,M003,Misalignment,Low,Line A,251.96,False,2025-11-01,16,Saturday
+762,2025-11-01 17:00:00,Day,1,M004,Torque Error,Low,Line B,284.31,False,2025-11-01,17,Saturday
+763,2025-11-01 18:00:00,Day,24,M002,Contamination,High,Line B,288.83,False,2025-11-01,18,Saturday
+764,2025-11-01 19:00:00,Night,7,M004,Misalignment,Low,Line C,716.85,False,2025-11-01,19,Saturday
+765,2025-11-01 20:00:00,Day,25,M002,Wiring Fault,Medium,Line B,668.39,True,2025-11-01,20,Saturday
+766,2025-11-01 21:00:00,Evening,21,M004,Contamination,Low,Line A,272.94,True,2025-11-01,21,Saturday
+767,2025-11-01 22:00:00,Night,15,M004,Misalignment,Low,Line B,325.76,True,2025-11-01,22,Saturday
+768,2025-11-01 23:00:00,Night,1,M002,Wiring Fault,Low,Line A,1499.33,True,2025-11-01,23,Saturday
+769,2025-11-02 00:00:00,Day,12,M003,Misalignment,Low,Line C,89.09,False,2025-11-02,0,Sunday
+770,2025-11-02 01:00:00,Night,7,M002,Torque Error,Low,Line A,380.85,True,2025-11-02,1,Sunday
+771,2025-11-02 02:00:00,Day,15,M001,Wiring Fault,Low,Line B,461.85,False,2025-11-02,2,Sunday
+772,2025-11-02 03:00:00,Night,21,M001,Contamination,Medium,Line C,185.55,True,2025-11-02,3,Sunday
+773,2025-11-02 04:00:00,Day,19,M002,Wiring Fault,Low,Line B,359.55,True,2025-11-02,4,Sunday
+774,2025-11-02 05:00:00,Day,29,M004,Contamination,Medium,Line C,162.12,False,2025-11-02,5,Sunday
+775,2025-11-02 06:00:00,Night,25,M001,Contamination,High,Line C,762.93,True,2025-11-02,6,Sunday
+776,2025-11-02 07:00:00,Day,33,M001,Misalignment,Medium,Line B,105.83,True,2025-11-02,7,Sunday
+777,2025-11-02 08:00:00,Day,49,M004,Misalignment,Low,Line B,1167.17,True,2025-11-02,8,Sunday
+778,2025-11-02 09:00:00,Night,32,M004,Surface Scratch,High,Line C,374.91,True,2025-11-02,9,Sunday
+779,2025-11-02 10:00:00,Night,49,M003,Contamination,Low,Line C,257.74,True,2025-11-02,10,Sunday
+780,2025-11-02 11:00:00,Evening,35,M004,Contamination,Low,Line B,147.72,True,2025-11-02,11,Sunday
+781,2025-11-02 12:00:00,Evening,44,M002,Contamination,Medium,Line A,1130.77,True,2025-11-02,12,Sunday
+782,2025-11-02 13:00:00,Evening,38,M002,Torque Error,Medium,Line B,210.22,False,2025-11-02,13,Sunday
+783,2025-11-02 14:00:00,Day,26,M003,Misalignment,Medium,Line C,125.56,False,2025-11-02,14,Sunday
+784,2025-11-02 15:00:00,Day,11,M001,Contamination,Low,Line B,1154.55,True,2025-11-02,15,Sunday
+785,2025-11-02 16:00:00,Day,35,M001,Torque Error,Medium,Line A,163.32,True,2025-11-02,16,Sunday
+786,2025-11-02 17:00:00,Night,8,M004,Misalignment,Low,Line B,367.06,False,2025-11-02,17,Sunday
+787,2025-11-02 18:00:00,Evening,46,M002,Misalignment,High,Line C,914.89,True,2025-11-02,18,Sunday
+788,2025-11-02 19:00:00,Evening,14,M001,Misalignment,Low,Line B,472.46,True,2025-11-02,19,Sunday
+789,2025-11-02 20:00:00,Evening,10,M003,Contamination,High,Line C,2277.54,True,2025-11-02,20,Sunday
+790,2025-11-02 21:00:00,Night,2,M003,Wiring Fault,Medium,Line C,175.05,False,2025-11-02,21,Sunday
+791,2025-11-02 22:00:00,Day,46,M002,Misalignment,High,Line B,326.85,True,2025-11-02,22,Sunday
+792,2025-11-02 23:00:00,Evening,9,M003,Misalignment,Medium,Line C,353.12,True,2025-11-02,23,Sunday
+793,2025-11-03 00:00:00,Evening,3,M003,Contamination,Medium,Line C,750.87,True,2025-11-03,0,Monday
+794,2025-11-03 01:00:00,Evening,21,M002,Torque Error,Low,Line A,1463.55,True,2025-11-03,1,Monday
+795,2025-11-03 02:00:00,Day,26,M004,Torque Error,Low,Line A,434.25,True,2025-11-03,2,Monday
+796,2025-11-03 03:00:00,Night,8,M004,Contamination,Low,Line A,351.54,True,2025-11-03,3,Monday
+797,2025-11-03 04:00:00,Night,48,M003,Wiring Fault,High,Line A,91.56,False,2025-11-03,4,Monday
+798,2025-11-03 05:00:00,Evening,2,M004,Torque Error,High,Line C,451.41,False,2025-11-03,5,Monday
+799,2025-11-03 06:00:00,Evening,6,M004,Wiring Fault,Medium,Line B,210.55,True,2025-11-03,6,Monday
+800,2025-11-03 07:00:00,Night,28,M003,Wiring Fault,Low,Line C,748.77,True,2025-11-03,7,Monday
+801,2025-11-03 08:00:00,Night,29,M004,Misalignment,Low,Line C,267.82,True,2025-11-03,8,Monday
+802,2025-11-03 09:00:00,Day,26,M003,Misalignment,Medium,Line C,317.15,False,2025-11-03,9,Monday
+803,2025-11-03 10:00:00,Evening,25,M001,Misalignment,Medium,Line B,93.67,False,2025-11-03,10,Monday
+804,2025-11-03 11:00:00,Evening,12,M002,Contamination,Medium,Line A,65.93,True,2025-11-03,11,Monday
+805,2025-11-03 12:00:00,Evening,5,M002,Surface Scratch,High,Line C,2594.08,True,2025-11-03,12,Monday
+806,2025-11-03 13:00:00,Night,34,M004,Contamination,Low,Line C,459.29,False,2025-11-03,13,Monday
+807,2025-11-03 14:00:00,Night,48,M004,Misalignment,Medium,Line A,604.46,True,2025-11-03,14,Monday
+808,2025-11-03 15:00:00,Night,37,M004,Wiring Fault,Medium,Line C,162.02,True,2025-11-03,15,Monday
+809,2025-11-03 16:00:00,Evening,15,M002,Contamination,Low,Line B,968.28,True,2025-11-03,16,Monday
+810,2025-11-03 17:00:00,Day,44,M001,Misalignment,Low,Line C,808.47,True,2025-11-03,17,Monday
+811,2025-11-03 18:00:00,Night,36,M001,Contamination,Low,Line C,180.83,True,2025-11-03,18,Monday
+812,2025-11-03 19:00:00,Night,15,M002,Contamination,High,Line A,139.84,False,2025-11-03,19,Monday
+813,2025-11-03 20:00:00,Day,43,M001,Wiring Fault,Medium,Line C,193.93,True,2025-11-03,20,Monday
+814,2025-11-03 21:00:00,Night,48,M002,Misalignment,Medium,Line C,392.18,True,2025-11-03,21,Monday
+815,2025-11-03 22:00:00,Night,23,M001,Misalignment,High,Line B,476.8,True,2025-11-03,22,Monday
+816,2025-11-03 23:00:00,Evening,6,M003,Contamination,Medium,Line A,419.22,True,2025-11-03,23,Monday
+817,2025-11-04 00:00:00,Evening,46,M003,Misalignment,Low,Line A,1478.42,True,2025-11-04,0,Tuesday
+818,2025-11-04 01:00:00,Day,50,M002,Torque Error,Medium,Line B,197.36,True,2025-11-04,1,Tuesday
+819,2025-11-04 02:00:00,Day,44,M001,Contamination,Medium,Line C,136.09,False,2025-11-04,2,Tuesday
+820,2025-11-04 03:00:00,Day,43,M004,Contamination,Medium,Line A,403.47,True,2025-11-04,3,Tuesday
+821,2025-11-04 04:00:00,Night,45,M001,Surface Scratch,Medium,Line A,74.21,True,2025-11-04,4,Tuesday
+822,2025-11-04 05:00:00,Day,21,M003,Torque Error,Medium,Line C,808.95,True,2025-11-04,5,Tuesday
+823,2025-11-04 06:00:00,Day,23,M003,Misalignment,Low,Line C,444.95,True,2025-11-04,6,Tuesday
+824,2025-11-04 07:00:00,Day,43,M001,Torque Error,High,Line A,287.71,False,2025-11-04,7,Tuesday
+825,2025-11-04 08:00:00,Evening,16,M001,Wiring Fault,Low,Line C,272.18,True,2025-11-04,8,Tuesday
+826,2025-11-04 09:00:00,Night,47,M004,Torque Error,Low,Line A,1002.24,False,2025-11-04,9,Tuesday
+827,2025-11-04 10:00:00,Day,15,M004,Misalignment,Low,Line C,970.83,True,2025-11-04,10,Tuesday
+828,2025-11-04 11:00:00,Day,25,M001,Surface Scratch,Low,Line C,315.33,False,2025-11-04,11,Tuesday
+829,2025-11-04 12:00:00,Night,36,M001,Contamination,Low,Line B,729.07,True,2025-11-04,12,Tuesday
+830,2025-11-04 13:00:00,Evening,11,M001,Misalignment,High,Line C,956.59,True,2025-11-04,13,Tuesday
+831,2025-11-04 14:00:00,Day,15,M001,Misalignment,High,Line B,564.27,True,2025-11-04,14,Tuesday
+832,2025-11-04 15:00:00,Evening,4,M002,Misalignment,Low,Line C,328.5,True,2025-11-04,15,Tuesday
+833,2025-11-04 16:00:00,Day,21,M001,Wiring Fault,Low,Line A,590.62,False,2025-11-04,16,Tuesday
+834,2025-11-04 17:00:00,Day,13,M004,Misalignment,Low,Line A,142.72,False,2025-11-04,17,Tuesday
+835,2025-11-04 18:00:00,Evening,22,M003,Misalignment,Low,Line C,433.16,True,2025-11-04,18,Tuesday
+836,2025-11-04 19:00:00,Evening,19,M002,Wiring Fault,Low,Line C,319.54,True,2025-11-04,19,Tuesday
+837,2025-11-04 20:00:00,Night,34,M001,Contamination,High,Line A,273.18,True,2025-11-04,20,Tuesday
+838,2025-11-04 21:00:00,Day,14,M003,Misalignment,Low,Line C,71.77,False,2025-11-04,21,Tuesday
+839,2025-11-04 22:00:00,Evening,4,M002,Misalignment,Medium,Line B,144.37,True,2025-11-04,22,Tuesday
+840,2025-11-04 23:00:00,Evening,48,M003,Misalignment,Low,Line B,248.17,True,2025-11-04,23,Tuesday
+841,2025-11-05 00:00:00,Day,46,M001,Misalignment,High,Line B,987.36,True,2025-11-05,0,Wednesday
+842,2025-11-05 01:00:00,Evening,27,M001,Torque Error,Medium,Line B,536.91,False,2025-11-05,1,Wednesday
+843,2025-11-05 02:00:00,Day,29,M004,Misalignment,High,Line B,1032.43,True,2025-11-05,2,Wednesday
+844,2025-11-05 03:00:00,Night,47,M001,Misalignment,Medium,Line C,1398.16,False,2025-11-05,3,Wednesday
+845,2025-11-05 04:00:00,Day,28,M001,Wiring Fault,Low,Line C,560.77,False,2025-11-05,4,Wednesday
+846,2025-11-05 05:00:00,Evening,35,M002,Torque Error,Low,Line B,464.19,True,2025-11-05,5,Wednesday
+847,2025-11-05 06:00:00,Day,8,M004,Contamination,Medium,Line C,152.48,True,2025-11-05,6,Wednesday
+848,2025-11-05 07:00:00,Night,16,M002,Contamination,Low,Line C,2941.49,False,2025-11-05,7,Wednesday
+849,2025-11-05 08:00:00,Evening,42,M003,Contamination,Medium,Line B,97.72,True,2025-11-05,8,Wednesday
+850,2025-11-05 09:00:00,Evening,36,M001,Contamination,Low,Line C,454.29,False,2025-11-05,9,Wednesday
+851,2025-11-05 10:00:00,Day,30,M003,Contamination,Low,Line C,927.78,True,2025-11-05,10,Wednesday
+852,2025-11-05 11:00:00,Night,18,M002,Contamination,Medium,Line C,940.81,True,2025-11-05,11,Wednesday
+853,2025-11-05 12:00:00,Day,2,M001,Surface Scratch,Medium,Line B,127.09,False,2025-11-05,12,Wednesday
+854,2025-11-05 13:00:00,Night,49,M001,Misalignment,Medium,Line C,265.1,True,2025-11-05,13,Wednesday
+855,2025-11-05 14:00:00,Day,13,M002,Wiring Fault,Low,Line A,181.46,True,2025-11-05,14,Wednesday
+856,2025-11-05 15:00:00,Day,4,M002,Misalignment,Medium,Line A,55.68,False,2025-11-05,15,Wednesday
+857,2025-11-05 16:00:00,Day,26,M002,Wiring Fault,Low,Line B,459.59,True,2025-11-05,16,Wednesday
+858,2025-11-05 17:00:00,Evening,25,M002,Torque Error,Low,Line A,196.84,True,2025-11-05,17,Wednesday
+859,2025-11-05 18:00:00,Evening,30,M002,Wiring Fault,Medium,Line B,1817.98,True,2025-11-05,18,Wednesday
+860,2025-11-05 19:00:00,Day,11,M001,Misalignment,Low,Line A,746.33,False,2025-11-05,19,Wednesday
+861,2025-11-05 20:00:00,Night,7,M002,Torque Error,Low,Line A,420.48,False,2025-11-05,20,Wednesday
+862,2025-11-05 21:00:00,Evening,31,M001,Contamination,Low,Line A,251.46,True,2025-11-05,21,Wednesday
+863,2025-11-05 22:00:00,Evening,44,M001,Torque Error,Low,Line B,452.65,False,2025-11-05,22,Wednesday
+864,2025-11-05 23:00:00,Evening,10,M002,Contamination,Low,Line B,312.35,False,2025-11-05,23,Wednesday
+865,2025-11-06 00:00:00,Evening,39,M002,Contamination,Low,Line C,432.48,True,2025-11-06,0,Thursday
+866,2025-11-06 01:00:00,Evening,13,M004,Contamination,Low,Line B,2701.7,True,2025-11-06,1,Thursday
+867,2025-11-06 02:00:00,Day,31,M001,Contamination,Low,Line A,139.11,True,2025-11-06,2,Thursday
+868,2025-11-06 03:00:00,Day,7,M002,Contamination,Medium,Line A,340.82,True,2025-11-06,3,Thursday
+869,2025-11-06 04:00:00,Night,49,M002,Misalignment,Low,Line B,817.61,False,2025-11-06,4,Thursday
+870,2025-11-06 05:00:00,Night,42,M002,Surface Scratch,Low,Line B,270.39,False,2025-11-06,5,Thursday
+871,2025-11-06 06:00:00,Day,42,M004,Torque Error,Low,Line B,1959.69,True,2025-11-06,6,Thursday
+872,2025-11-06 07:00:00,Day,36,M004,Surface Scratch,Medium,Line C,795.09,True,2025-11-06,7,Thursday
+873,2025-11-06 08:00:00,Evening,20,M003,Misalignment,High,Line A,196.59,True,2025-11-06,8,Thursday
+874,2025-11-06 09:00:00,Evening,4,M001,Wiring Fault,Medium,Line C,494.76,True,2025-11-06,9,Thursday
+875,2025-11-06 10:00:00,Day,7,M003,Wiring Fault,Medium,Line C,199.42,True,2025-11-06,10,Thursday
+876,2025-11-06 11:00:00,Day,1,M002,Torque Error,Medium,Line A,181.88,True,2025-11-06,11,Thursday
+877,2025-11-06 12:00:00,Night,44,M004,Torque Error,Medium,Line A,350.65,True,2025-11-06,12,Thursday
+878,2025-11-06 13:00:00,Evening,45,M004,Contamination,Medium,Line B,1427.62,True,2025-11-06,13,Thursday
+879,2025-11-06 14:00:00,Day,42,M003,Wiring Fault,Low,Line B,850.18,False,2025-11-06,14,Thursday
+880,2025-11-06 15:00:00,Day,47,M004,Contamination,Low,Line C,394.42,True,2025-11-06,15,Thursday
+881,2025-11-06 16:00:00,Day,13,M002,Misalignment,Low,Line B,881.11,True,2025-11-06,16,Thursday
+882,2025-11-06 17:00:00,Evening,22,M004,Contamination,High,Line B,527.75,True,2025-11-06,17,Thursday
+883,2025-11-06 18:00:00,Day,21,M003,Surface Scratch,Medium,Line A,125.22,True,2025-11-06,18,Thursday
+884,2025-11-06 19:00:00,Day,22,M002,Wiring Fault,Medium,Line A,348.93,True,2025-11-06,19,Thursday
+885,2025-11-06 20:00:00,Night,28,M003,Surface Scratch,Low,Line B,374.97,True,2025-11-06,20,Thursday
+886,2025-11-06 21:00:00,Day,9,M004,Torque Error,Medium,Line A,864.1,False,2025-11-06,21,Thursday
+887,2025-11-06 22:00:00,Evening,26,M003,Misalignment,Low,Line B,228.96,True,2025-11-06,22,Thursday
+888,2025-11-06 23:00:00,Day,9,M003,Misalignment,Low,Line A,161.96,False,2025-11-06,23,Thursday
+889,2025-11-07 00:00:00,Day,15,M001,Misalignment,High,Line A,385.47,False,2025-11-07,0,Friday
+890,2025-11-07 01:00:00,Day,10,M004,Misalignment,Medium,Line A,211.57,False,2025-11-07,1,Friday
+891,2025-11-07 02:00:00,Night,24,M004,Contamination,Low,Line A,291.92,True,2025-11-07,2,Friday
+892,2025-11-07 03:00:00,Night,42,M003,Misalignment,High,Line B,372.08,False,2025-11-07,3,Friday
+893,2025-11-07 04:00:00,Night,8,M001,Contamination,Low,Line C,275.05,True,2025-11-07,4,Friday
+894,2025-11-07 05:00:00,Day,24,M004,Surface Scratch,High,Line A,1056.99,True,2025-11-07,5,Friday
+895,2025-11-07 06:00:00,Evening,16,M002,Contamination,Low,Line B,1659.54,False,2025-11-07,6,Friday
+896,2025-11-07 07:00:00,Day,49,M003,Wiring Fault,Low,Line B,956.15,True,2025-11-07,7,Friday
+897,2025-11-07 08:00:00,Day,26,M004,Torque Error,Low,Line A,68.64,True,2025-11-07,8,Friday
+898,2025-11-07 09:00:00,Night,27,M002,Misalignment,Low,Line C,212.31,True,2025-11-07,9,Friday
+899,2025-11-07 10:00:00,Day,37,M004,Contamination,Low,Line A,337.43,True,2025-11-07,10,Friday
+900,2025-11-07 11:00:00,Day,4,M002,Misalignment,Medium,Line B,63.67,True,2025-11-07,11,Friday
+901,2025-11-07 12:00:00,Day,50,M003,Contamination,High,Line C,168.02,True,2025-11-07,12,Friday
+902,2025-11-07 13:00:00,Day,24,M004,Torque Error,Medium,Line B,333.14,False,2025-11-07,13,Friday
+903,2025-11-07 14:00:00,Day,19,M004,Misalignment,Low,Line A,257.5,False,2025-11-07,14,Friday
+904,2025-11-07 15:00:00,Evening,36,M001,Misalignment,Medium,Line C,406.93,False,2025-11-07,15,Friday
+905,2025-11-07 16:00:00,Evening,39,M003,Contamination,Low,Line B,101.41,True,2025-11-07,16,Friday
+906,2025-11-07 17:00:00,Night,10,M002,Surface Scratch,Low,Line B,254.61,True,2025-11-07,17,Friday
+907,2025-11-07 18:00:00,Night,25,M004,Wiring Fault,Medium,Line B,469.61,False,2025-11-07,18,Friday
+908,2025-11-07 19:00:00,Day,18,M004,Torque Error,Medium,Line A,407.57,False,2025-11-07,19,Friday
+909,2025-11-07 20:00:00,Day,19,M002,Misalignment,Low,Line C,630.74,True,2025-11-07,20,Friday
+910,2025-11-07 21:00:00,Day,36,M003,Wiring Fault,Low,Line A,595.01,True,2025-11-07,21,Friday
+911,2025-11-07 22:00:00,Evening,10,M001,Wiring Fault,High,Line A,268.51,True,2025-11-07,22,Friday
+912,2025-11-07 23:00:00,Day,33,M001,Torque Error,Low,Line A,454.92,True,2025-11-07,23,Friday
+913,2025-11-08 00:00:00,Evening,50,M004,Surface Scratch,Medium,Line C,181.27,True,2025-11-08,0,Saturday
+914,2025-11-08 01:00:00,Evening,5,M002,Contamination,Medium,Line A,307.9,False,2025-11-08,1,Saturday
+915,2025-11-08 02:00:00,Evening,47,M004,Surface Scratch,Low,Line A,140.38,True,2025-11-08,2,Saturday
+916,2025-11-08 03:00:00,Evening,49,M002,Surface Scratch,Low,Line A,1170.78,True,2025-11-08,3,Saturday
+917,2025-11-08 04:00:00,Day,35,M001,Misalignment,Low,Line A,306.9,True,2025-11-08,4,Saturday
+918,2025-11-08 05:00:00,Night,44,M003,Contamination,Medium,Line B,1169.05,True,2025-11-08,5,Saturday
+919,2025-11-08 06:00:00,Night,34,M002,Surface Scratch,Medium,Line A,550.87,True,2025-11-08,6,Saturday
+920,2025-11-08 07:00:00,Day,33,M001,Misalignment,Medium,Line B,166.39,True,2025-11-08,7,Saturday
+921,2025-11-08 08:00:00,Night,21,M004,Contamination,High,Line A,518.59,True,2025-11-08,8,Saturday
+922,2025-11-08 09:00:00,Evening,17,M002,Surface Scratch,Medium,Line C,906.62,False,2025-11-08,9,Saturday
+923,2025-11-08 10:00:00,Night,22,M003,Torque Error,Medium,Line B,373.31,True,2025-11-08,10,Saturday
+924,2025-11-08 11:00:00,Night,48,M004,Misalignment,Medium,Line B,434.43,True,2025-11-08,11,Saturday
+925,2025-11-08 12:00:00,Evening,37,M004,Torque Error,Medium,Line B,232.42,True,2025-11-08,12,Saturday
+926,2025-11-08 13:00:00,Day,15,M001,Misalignment,Medium,Line B,413.27,False,2025-11-08,13,Saturday
+927,2025-11-08 14:00:00,Day,35,M002,Contamination,Medium,Line C,511.78,True,2025-11-08,14,Saturday
+928,2025-11-08 15:00:00,Evening,28,M004,Misalignment,Medium,Line A,226.15,False,2025-11-08,15,Saturday
+929,2025-11-08 16:00:00,Evening,7,M003,Torque Error,Low,Line B,137.1,True,2025-11-08,16,Saturday
+930,2025-11-08 17:00:00,Day,32,M002,Contamination,Medium,Line C,1462.6,False,2025-11-08,17,Saturday
+931,2025-11-08 18:00:00,Day,11,M003,Torque Error,Low,Line B,738.13,False,2025-11-08,18,Saturday
+932,2025-11-08 19:00:00,Night,10,M004,Torque Error,Low,Line A,233.3,True,2025-11-08,19,Saturday
+933,2025-11-08 20:00:00,Night,9,M003,Contamination,Low,Line B,502.53,True,2025-11-08,20,Saturday
+934,2025-11-08 21:00:00,Evening,14,M001,Torque Error,Medium,Line C,91.97,True,2025-11-08,21,Saturday
+935,2025-11-08 22:00:00,Day,13,M003,Misalignment,Medium,Line A,55.86,False,2025-11-08,22,Saturday
+936,2025-11-08 23:00:00,Day,25,M002,Torque Error,Low,Line C,1192.89,True,2025-11-08,23,Saturday
+937,2025-11-09 00:00:00,Day,2,M003,Misalignment,Medium,Line A,507.53,True,2025-11-09,0,Sunday
+938,2025-11-09 01:00:00,Night,35,M003,Surface Scratch,Medium,Line A,384.64,False,2025-11-09,1,Sunday
+939,2025-11-09 02:00:00,Day,7,M001,Misalignment,Low,Line A,509.11,False,2025-11-09,2,Sunday
+940,2025-11-09 03:00:00,Evening,21,M003,Contamination,Medium,Line B,3369.676856156396,True,2025-11-09,3,Sunday
+941,2025-11-09 04:00:00,Day,18,M003,Torque Error,Medium,Line C,962.08,True,2025-11-09,4,Sunday
+942,2025-11-09 05:00:00,Evening,3,M004,Contamination,Medium,Line C,141.82,True,2025-11-09,5,Sunday
+943,2025-11-09 06:00:00,Evening,42,M004,Misalignment,Medium,Line C,75.16,True,2025-11-09,6,Sunday
+944,2025-11-09 07:00:00,Night,39,M002,Torque Error,Medium,Line A,1158.1,True,2025-11-09,7,Sunday
+945,2025-11-09 08:00:00,Day,41,M004,Torque Error,Low,Line B,949.65,True,2025-11-09,8,Sunday
+946,2025-11-09 09:00:00,Day,49,M004,Torque Error,Low,Line A,716.99,True,2025-11-09,9,Sunday
+947,2025-11-09 10:00:00,Day,11,M004,Contamination,Low,Line C,178.95,False,2025-11-09,10,Sunday
+948,2025-11-09 11:00:00,Night,39,M004,Torque Error,High,Line B,580.15,True,2025-11-09,11,Sunday
+949,2025-11-09 12:00:00,Night,24,M001,Contamination,Low,Line B,195.71,True,2025-11-09,12,Sunday
+950,2025-11-09 13:00:00,Evening,46,M004,Torque Error,Low,Line B,782.73,True,2025-11-09,13,Sunday
+951,2025-11-09 14:00:00,Evening,19,M001,Torque Error,High,Line C,1077.78,True,2025-11-09,14,Sunday
+952,2025-11-09 15:00:00,Evening,4,M001,Contamination,High,Line B,234.28,True,2025-11-09,15,Sunday
+953,2025-11-09 16:00:00,Day,26,M004,Misalignment,Medium,Line B,1251.14,True,2025-11-09,16,Sunday
+954,2025-11-09 17:00:00,Night,38,M003,Misalignment,Low,Line A,452.53,False,2025-11-09,17,Sunday
+955,2025-11-09 18:00:00,Evening,42,M001,Misalignment,Low,Line A,659.76,True,2025-11-09,18,Sunday
+956,2025-11-09 19:00:00,Day,32,M003,Misalignment,Low,Line B,108.89,True,2025-11-09,19,Sunday
+957,2025-11-09 20:00:00,Evening,39,M003,Contamination,Low,Line B,508.88,False,2025-11-09,20,Sunday
+958,2025-11-09 21:00:00,Day,45,M004,Torque Error,Low,Line A,205.29,True,2025-11-09,21,Sunday
+959,2025-11-09 22:00:00,Day,46,M002,Misalignment,Medium,Line A,648.48,False,2025-11-09,22,Sunday
+960,2025-11-09 23:00:00,Night,36,M004,Surface Scratch,High,Line A,1749.64,True,2025-11-09,23,Sunday
+961,2025-11-10 00:00:00,Day,40,M002,Misalignment,Low,Line C,538.89,False,2025-11-10,0,Monday
+962,2025-11-10 01:00:00,Evening,37,M002,Wiring Fault,Medium,Line C,163.88,True,2025-11-10,1,Monday
+963,2025-11-10 02:00:00,Day,33,M004,Torque Error,Medium,Line A,754.81,False,2025-11-10,2,Monday
+964,2025-11-10 03:00:00,Day,36,M004,Contamination,Low,Line B,602.92,False,2025-11-10,3,Monday
+965,2025-11-10 04:00:00,Day,3,M002,Misalignment,Medium,Line A,3160.87,True,2025-11-10,4,Monday
+966,2025-11-10 05:00:00,Day,9,M004,Torque Error,Low,Line C,520.07,True,2025-11-10,5,Monday
+967,2025-11-10 06:00:00,Night,8,M002,Contamination,Low,Line B,224.65,False,2025-11-10,6,Monday
+968,2025-11-10 07:00:00,Day,33,M003,Surface Scratch,Medium,Line C,871.87,True,2025-11-10,7,Monday
+969,2025-11-10 08:00:00,Evening,6,M004,Contamination,Low,Line B,355.07,True,2025-11-10,8,Monday
+970,2025-11-10 09:00:00,Evening,41,M003,Surface Scratch,High,Line C,437.14,True,2025-11-10,9,Monday
+971,2025-11-10 10:00:00,Evening,39,M001,Misalignment,Low,Line B,159.42,False,2025-11-10,10,Monday
+972,2025-11-10 11:00:00,Night,4,M003,Torque Error,Medium,Line B,356.94,True,2025-11-10,11,Monday
+973,2025-11-10 12:00:00,Night,13,M003,Torque Error,Medium,Line B,416.05,True,2025-11-10,12,Monday
+974,2025-11-10 13:00:00,Day,49,M002,Torque Error,Low,Line B,354.83,True,2025-11-10,13,Monday
+975,2025-11-10 14:00:00,Day,2,M003,Misalignment,Low,Line C,223.43,False,2025-11-10,14,Monday
+976,2025-11-10 15:00:00,Day,5,M004,Torque Error,Medium,Line C,538.2,False,2025-11-10,15,Monday
+977,2025-11-10 16:00:00,Evening,44,M002,Contamination,High,Line B,160.22,False,2025-11-10,16,Monday
+978,2025-11-10 17:00:00,Day,27,M001,Torque Error,High,Line B,126.6,True,2025-11-10,17,Monday
+979,2025-11-10 18:00:00,Evening,32,M004,Contamination,Medium,Line C,820.19,False,2025-11-10,18,Monday
+980,2025-11-10 19:00:00,Evening,21,M001,Wiring Fault,Medium,Line B,748.26,True,2025-11-10,19,Monday
+981,2025-11-10 20:00:00,Day,8,M003,Misalignment,Medium,Line B,109.11,True,2025-11-10,20,Monday
+982,2025-11-10 21:00:00,Night,38,M004,Wiring Fault,Medium,Line B,64.74,True,2025-11-10,21,Monday
+983,2025-11-10 22:00:00,Day,8,M004,Wiring Fault,Medium,Line A,147.12,True,2025-11-10,22,Monday
+984,2025-11-10 23:00:00,Day,50,M001,Wiring Fault,Medium,Line B,354.85,False,2025-11-10,23,Monday
+985,2025-11-11 00:00:00,Night,3,M004,Contamination,High,Line A,1279.66,True,2025-11-11,0,Tuesday
+986,2025-11-11 01:00:00,Evening,44,M004,Contamination,Low,Line B,346.28,True,2025-11-11,1,Tuesday
+987,2025-11-11 02:00:00,Evening,3,M004,Surface Scratch,High,Line C,186.91,False,2025-11-11,2,Tuesday
+988,2025-11-11 03:00:00,Evening,22,M003,Misalignment,Medium,Line A,468.06,False,2025-11-11,3,Tuesday
+989,2025-11-11 04:00:00,Day,6,M001,Contamination,Low,Line A,359.96,True,2025-11-11,4,Tuesday
+990,2025-11-11 05:00:00,Night,2,M004,Torque Error,Low,Line B,101.39,True,2025-11-11,5,Tuesday
+991,2025-11-11 06:00:00,Night,23,M002,Torque Error,Low,Line B,102.0,False,2025-11-11,6,Tuesday
+992,2025-11-11 07:00:00,Evening,44,M002,Misalignment,Medium,Line A,104.77,True,2025-11-11,7,Tuesday
+993,2025-11-11 08:00:00,Day,2,M002,Torque Error,High,Line C,3369.676856156396,True,2025-11-11,8,Tuesday
+994,2025-11-11 09:00:00,Evening,38,M002,Wiring Fault,Low,Line C,953.35,True,2025-11-11,9,Tuesday
+995,2025-11-11 10:00:00,Day,17,M003,Misalignment,High,Line B,222.8,True,2025-11-11,10,Tuesday
+996,2025-11-11 11:00:00,Day,35,M004,Surface Scratch,High,Line C,1222.03,False,2025-11-11,11,Tuesday
+997,2025-11-11 12:00:00,Night,34,M001,Misalignment,Low,Line C,228.59,True,2025-11-11,12,Tuesday
+998,2025-11-11 13:00:00,Day,23,M004,Contamination,High,Line B,1182.26,True,2025-11-11,13,Tuesday
+999,2025-11-11 14:00:00,Night,30,M003,Misalignment,High,Line C,437.16,True,2025-11-11,14,Tuesday
+1000,2025-11-11 15:00:00,Evening,8,M002,Misalignment,Medium,Line B,208.75,True,2025-11-11,15,Tuesday
