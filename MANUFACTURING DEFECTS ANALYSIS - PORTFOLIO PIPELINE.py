@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+
 """
  MANUFACTURING DEFECTS QUALITY ANALYSIS PIPELINE
 Junior Data Analyst Portfolio Project
@@ -119,5 +119,6 @@ print(f"• Night shift: {night_pct:.1f}% wszystkich defektów")
 print(f"• Top 3 defekty pokrywają: {pareto.head(3)['cum_pct'].iloc[-1]:.1f}% całkowitych kosztów")
 print(f"• Maszyna M002: {machine_stats.loc['M002', 'mean']:.0f} PLN średnio na defekt (najwyższy)")
 print("• Plik: manufacturing_defects_cleaned.csv")
+
 
 
